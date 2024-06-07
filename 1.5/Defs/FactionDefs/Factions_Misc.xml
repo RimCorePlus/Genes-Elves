@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!--Elven Syndicate-->
+	<FactionDef ParentName="FactionBase" Name="ElvenFactionBase" Abstract="True">
+		<pawnSingular>elf</pawnSingular>
+		<pawnsPlural>elves</pawnsPlural>
+		<categoryTag>Outlander</categoryTag>
+		<listOrderPriority>30</listOrderPriority>
+		<settlementGenerationWeight>0.8</settlementGenerationWeight>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<canSiege>true</canSiege>
+		<canStageAttacks>true</canStageAttacks>
+		<leaderTitle>high elf</leaderTitle>
+		<factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+		<techLevel>Industrial</techLevel>
+		<factionNameMaker>NamerFactionElves</factionNameMaker>
+		<settlementNameMaker>NamerSettlementElves</settlementNameMaker>
+		<allowedCultures>
+			<li>Rustican</li>
+		</allowedCultures>
+		<disallowedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Animist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+		</disallowedMemes>
+		<structureMemeWeights>
+			<Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">0</Structure_TheistEmbodied>
+			<Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">2</Structure_TheistAbstract>
+			<Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">5</Structure_Ideological>
+			<Structure_Archist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Archist>
+			<Structure_OriginChristian MayRequire="Ludeon.RimWorld.Ideology">0</Structure_OriginChristian>
+			<Structure_OriginIslamic MayRequire="Ludeon.RimWorld.Ideology">0</Structure_OriginIslamic>
+			<Structure_OriginHindu MayRequire="Ludeon.RimWorld.Ideology">0</Structure_OriginHindu>
+			<Structure_OriginBuddhist MayRequire="Ludeon.RimWorld.Ideology">0</Structure_OriginBuddhist>
+		</structureMemeWeights>
+		<xenotypeSet>
+			<xenotypeChances>
+				<boomer_DrowXeno>0.15</boomer_DrowXeno>
+				<boomer_ElfXeno>0.5</boomer_ElfXeno>
+				<boomer_WoodElfXeno>0.35</boomer_WoodElfXeno>
+			</xenotypeChances>
+		</xenotypeSet>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>Outlander</li>
+				</categories>
+				<commonality>0.95</commonality>
+			</li>
+			<li>
+				<categories>
+					<li>Offworld</li>
+				</categories>
+				<commonality>0.05</commonality>
+			</li>
+		</backstoryFilters>
+		<caravanTraderKinds>
+			<li>Caravan_Outlander_BulkGoods</li>
+			<li>Caravan_Outlander_CombatSupplier</li>
+			<li>Caravan_Outlander_Exotic</li>
+			<li>Caravan_Outlander_PirateMerchant</li>
+		</caravanTraderKinds>
+		<visitorTraderKinds>
+			<li>Visitor_Outlander_Standard</li>
+		</visitorTraderKinds>
+		<baseTraderKinds>
+			<li>Base_Outlander_Standard</li>
+		</baseTraderKinds>
+		<allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
+		<raidLootMaker>OutlanderRaidLootMaker</raidLootMaker>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(0,35)</li>
+				<li>(70, 50)</li>
+				<li>(700, 100)</li>
+				<li>(1300, 150)</li>
+				<li>(100000, 10000)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+		<pawnGroupMakers>
+			<li>
+				<!-- Normal fights, standard mix -->
+				<kindDef>Combat</kindDef>
+				<options>
+					<Villager>5</Villager>
+					<Town_Guard>10</Town_Guard>
+					<Grenadier_Destructive>1.5</Grenadier_Destructive>
+					<Mercenary_Slasher>7</Mercenary_Slasher>
+					<Mercenary_Gunner>10</Mercenary_Gunner>
+					<Mercenary_Elite>10</Mercenary_Elite>
+					<Town_Councilman>10</Town_Councilman>
+				</options>
+			</li>
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<options>
+					<Villager>20</Villager>
+					<Villager_Child MayRequire="Ludeon.RimWorld.Biotech">10</Villager_Child>
+					<Town_Guard>10</Town_Guard>
+					<Town_Councilman>10</Town_Councilman>
+				</options>
+			</li>
+			<li>
+				<kindDef>Trader</kindDef>
+				<traders>
+					<Town_Trader>1</Town_Trader>
+				</traders>
+				<carriers>
+					<Muffalo>6</Muffalo>
+					<Dromedary>5</Dromedary>
+					<Alpaca>2</Alpaca>
+					<Elephant>1</Elephant>
+				</carriers>
+				<guards>
+					<Villager>3</Villager>
+					<Town_Guard>10</Town_Guard>
+					<Grenadier_Destructive>1.5</Grenadier_Destructive>
+					<Mercenary_Slasher>7</Mercenary_Slasher>
+					<Mercenary_Gunner>10</Mercenary_Gunner>
+					<Mercenary_Elite>10</Mercenary_Elite>
+				</guards>
+			</li>
+			<li>
+				<kindDef>Settlement</kindDef>
+				<options>
+					<Villager>10</Villager>
+					<Town_Guard>10</Town_Guard>
+					<Grenadier_Destructive>1.5</Grenadier_Destructive>
+					<Mercenary_Slasher>7</Mercenary_Slasher>
+					<Mercenary_Gunner>10</Mercenary_Gunner>
+					<Mercenary_Elite>10</Mercenary_Elite>
+					<Town_Councilman>10</Town_Councilman>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Miners</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Miner>1</Miner>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Hunters</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Hunter>1</Hunter>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Loggers</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Logger>1</Logger>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Farmers</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Farmer>1</Farmer>
+				</options>
+			</li>
+		</pawnGroupMakers>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+	</FactionDef>
+	<FactionDef ParentName="ElvenFactionBase" Name="ElvenRoughBase" Abstract="True">
+		<colorSpectrum>
+			<li>(0.39, 0.65, 0.76)</li>
+			<li>(0.19, 0.45, 0.56)</li>
+		</colorSpectrum>
+		<naturalEnemy>true</naturalEnemy>
+		<requiredMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+		</requiredMemes>
+		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>20</configurationListOrderPriority>
+	</FactionDef>
+	<FactionDef ParentName="ElvenRoughBase">
+		<defName>boomer_elvenfaction</defName>
+		<label>elven syndicate</label>
+		<description>Despite being mortal enemies on Faerie, some of the elves on this world have joined forces to build a society away from humans. They work with simple machinery and defend themselves with advanced gunpowder weapons.\n\nThey are concerned with securing the existence of their people and a future for elven children.\n\nThis group is wary of outsiders; it may be difficult to turn them into an ally.</description>
+		<factionIconPath>World/WorldObjects/Expanding/TownRough</factionIconPath>
+	</FactionDef>
+	<!--Goblin Horde-->
+	<FactionDef ParentName="TribeBase" Name="GoblinHordeBase" Abstract="True">
+		<naturalEnemy>true</naturalEnemy>
+		<leaderTitle>chieftain</leaderTitle>
+		<requiredMemes Inherit="False">
+			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
+		</requiredMemes>
+		<disallowedMemes Inherit="False">
+			<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+		</disallowedMemes>
+		<caravanTraderKinds Inherit="False">
+			<li>Caravan_Neolithic_WarMerchant</li>
+			<li>Caravan_Neolithic_Slaver</li>
+			<li>Caravan_Neolithic_ShamanMerchant</li>
+		</caravanTraderKinds>
+		<structureMemeWeights Inherit="False">
+			<Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">2</Structure_TheistEmbodied>
+			<Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">2</Structure_TheistAbstract>
+			<Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">2</Structure_Ideological>
+		</structureMemeWeights>
+		<xenotypeSet Inherit="False">
+			<xenotypeChances>
+				<boomer_GoblinXeno>1</boomer_GoblinXeno>
+			</xenotypeChances>
+		</xenotypeSet>
+		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>40</configurationListOrderPriority>
+	</FactionDef>
+	<FactionDef ParentName="GoblinHordeBase">
+		<defName>GoblinHorde</defName>
+		<label>goblin horde</label>
+		<description>A large coalition of goblins who've agreed to mostly fight outsiders instead of fighting each other. They are mostly nomadic and enrich themselves by raiding and robbing their more productive neighbors.\n\nThe horde is wary of outsiders; it may be difficult to turn them into an ally.</description>
+		<factionIconPath>World/WorldObjects/Expanding/VillageRough</factionIconPath>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<settlementGenerationWeight>0.5</settlementGenerationWeight>
+		<colorSpectrum Inherit="False">
+			<li>(0.66, 0.71, 0.42)</li>
+			<li>(0.46, 0.51, 0.22)</li>
+		</colorSpectrum>
+	</FactionDef>
+</Defs>

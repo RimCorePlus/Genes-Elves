@@ -1,0 +1,33 @@
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>AFU Cosmetic Gene Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<!--Uses goblin ears from AFU-->
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/XenotypeDef[defName="boomer_GoblinXeno"]/genes</xpath>
+					<value>
+						<genes>
+							<li>Immunity_Strong</li>
+							<li>MeleeDamage_Weak</li>
+							<li>Pain_Reduced</li>
+							<li>Libido_High</li>
+							<li>Fertile</li>
+							<li>Body_Thin</li>
+							<li>AFU_HA_GoblinEar</li>
+							<li>Hair_DarkBrown</li>
+							<li>Hair_DarkSaturatedReddish</li>
+							<li>Hair_MidBlack</li>
+							<li>Skin_Green</li>
+							<li>StrongStomach</li>
+							<li>Learning_Slow</li>
+						</genes>
+					</value>
+				</li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

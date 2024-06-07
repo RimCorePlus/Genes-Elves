@@ -1,0 +1,56 @@
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<!--Adds Sanguophage double-xenos-->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/XenotypeDef[defName="Sanguophage"]/doubleXenotypeChances</xpath>
+				<value>
+					<boomer_DrowXeno>0.01</boomer_DrowXeno>
+					<boomer_ElfXeno>0.01</boomer_ElfXeno>
+					<boomer_WoodElfXeno>0.01</boomer_WoodElfXeno>
+				</value>
+			</li>
+			<!--Adds xenos to vanilla factions-->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/FactionDef[@Name="OutlanderFactionBase"]/xenotypeSet/xenotypeChances</xpath>
+				<value>
+					<boomer_ElfXeno>0.05</boomer_ElfXeno>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/FactionDef[@Name="PirateBandBase"]/xenotypeSet/xenotypeChances</xpath>
+				<value>
+					<boomer_DrowXeno>0.05</boomer_DrowXeno>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/FactionDef[defName="TribeCivil"]</xpath>
+				<value>
+					<xenotypeSet>
+						<xenotypeChances>
+							<boomer_WoodElfXeno>0.05</boomer_WoodElfXeno>
+						</xenotypeChances>
+					</xenotypeSet>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/FactionDef[defName="TribeRough" or
+				defName="TribeSavage"]</xpath>
+				<value>
+					<xenotypeSet>
+						<xenotypeChances>
+							<boomer_WoodElfXeno>0.05</boomer_WoodElfXeno>
+						</xenotypeChances>
+					</xenotypeSet>
+				</value>
+			</li>
+			<!--Adds elven syllables to namers-->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RulePackDef[defName="GlobalUtility"]/rulePack/rulesFiles</xpath>
+				<value>
+					<li>SylElf->WordParts/Syllables_Elven</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

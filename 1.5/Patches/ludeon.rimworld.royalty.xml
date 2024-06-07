@@ -1,0 +1,81 @@
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Ideology</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<!--Adds xenos to faction generation-->
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/FactionDef[defName="Empire"]/xenotypeSet/xenotypeChances</xpath>
+					<value>
+						<boomer_DrowXeno>0.025</boomer_DrowXeno>
+						<boomer_ElfXeno>0.025</boomer_ElfXeno>
+						<boomer_WoodElfXeno>0.025</boomer_WoodElfXeno>
+					</value>
+				</li>
+				<!--Adds xenos to faction generation-->
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/FactionDef[defName="Beggars" or
+				defName="Pilgrims"]/xenotypeSet/xenotypeChances</xpath>
+					<value>
+						<boomer_DrowXeno>0.025</boomer_DrowXeno>
+						<boomer_ElfXeno>0.025</boomer_ElfXeno>
+						<boomer_WoodElfXeno>0.025</boomer_WoodElfXeno>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/FactionDef[defName="OutlanderRefugee"]/xenotypeSet/xenotypeChances</xpath>
+					<value>
+						<boomer_DrowXeno>0.025</boomer_DrowXeno>
+						<boomer_ElfXeno>0.025</boomer_ElfXeno>
+						<boomer_WoodElfXeno>0.025</boomer_WoodElfXeno>
+					</value>
+				</li>
+				<!--Removes xenos to pawnkind generation-->
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/PawnKindDef[defName="Slave_Empire" or
+				@Name="RefugeeBase"]/xenotypeSet/xenotypeChances</xpath>
+					<value>
+						<boomer_DrowXeno>0.025</boomer_DrowXeno>
+						<boomer_ElfXeno>0.025</boomer_ElfXeno>
+						<boomer_WoodElfXeno>0.025</boomer_WoodElfXeno>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/PawnKindDef[defName="Empire_Common_Trader"]/xenotypeSet/xenotypeChances</xpath>
+					<value>
+						<boomer_DrowXeno>0.025</boomer_DrowXeno>
+						<boomer_ElfXeno>0.025</boomer_ElfXeno>
+						<boomer_WoodElfXeno>0.025</boomer_WoodElfXeno>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/PawnKindDef[defName="Empire_Common_Lodger" or
+				defName="Empire_Common_Laborer" or
+				defName="Empire_Fighter_Trooper" or
+				defName="Empire_Fighter_Grenadier" or
+				defName="Empire_Fighter_Janissary" or
+				defName="Empire_Fighter_Champion" or
+				defName="Empire_Fighter_Cataphract" or
+				@Name="StellicGuardBase" or
+				defName="Empire_Royal_NobleWimp" or
+				defName="Empire_Royal_Yeoman" or
+				defName="Empire_Royal_Acolyte" or
+				defName="Empire_Royal_Knight" or
+				defName="Empire_Royal_Praetor" or
+				defName="Empire_Royal_Baron" or
+				defName="Empire_Royal_Count" or
+				defName="Empire_Royal_Duke" or
+				defName="Empire_Royal_Consul" or
+				defName="Empire_Royal_Stellarch"]/xenotypeSet/xenotypeChances</xpath>
+					<value>
+						<boomer_DrowXeno>0.025</boomer_DrowXeno>
+						<boomer_ElfXeno>0.025</boomer_ElfXeno>
+						<boomer_WoodElfXeno>0.025</boomer_WoodElfXeno>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

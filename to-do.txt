@@ -1,0 +1,5 @@
+- make elf collective industrial faction
+-- create pawnkinddefs
+--- most of the combatants should be wood elf/drow
+--- traders should be elves
+-- fix namemakers
