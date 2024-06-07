@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>[b] Elves</name>
-	<description>A compendium of elven humanoids.</description>
-	<author>boomer</author>
 	<packageId>boomer.elves</packageId>
+	<name>[b] Elves</name>
+	<author>boomer</author>
+	<description>A compendium of elven humanoids.</description>
 	<supportedVersions>
 		<li>1.5</li>
 	</supportedVersions>
+	<modVersion>1.5.0</modVersion>
+	<modIconPath IgnoreIfNoMatchingField="True" />
+	<url />
 	<modDependencies>
 		<li>
 			<packageId>Ludeon.RimWorld.Biotech</packageId>
@@ -19,9 +22,11 @@
 			<downloadUrl>https://github.com/</downloadUrl>
 		</li>
 	</modDependencies>
+	<loadBefore />
 	<loadAfter>
 		<li>Ludeon.RimWorld.Biotech</li>
 		<li>boomer.patches</li>
 		<li>jintuzilamian.gene.xenocosmetic</li>
 	</loadAfter>
+	<incompatibleWith />
 </ModMetaData>
