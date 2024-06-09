@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	<!-- Drow -->
+	<!--Drow-->
 	<XenotypeDef>
 		<defName>boomer_DrowXeno</defName>
 		<label>Drow</label>
@@ -8,6 +8,7 @@
 		<descriptionShort>Also known as dark elves, this dark-skinned sub-race of elves lived in the overdark—the dark side of a habitable moon.</descriptionShort>
 		<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon4</iconPath>
 		<inheritable>true</inheritable>
+		<nameMaker>NamerPersonElven</nameMaker>
 		<genes>
 			<li>MinTemp_SmallDecrease</li>
 			<li>UVSensitivity_Mild</li>
@@ -25,7 +26,7 @@
 			<li>ElongatedFingers</li>
 		</genes>
 	</XenotypeDef>
-	<!-- Elf -->
+	<!--Elf-->
 	<XenotypeDef>
 		<defName>boomer_ElfXeno</defName>
 		<label>Elf</label>
@@ -33,6 +34,7 @@
 		<descriptionShort>An evolved humanoid from a habitable moon in the outer rim known as Faerie.</descriptionShort>
 		<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon4</iconPath>
 		<inheritable>true</inheritable>
+		<nameMaker>NamerPersonElven</nameMaker>
 		<genes>
 			<li>Aggression_DeadCalm</li>
 			<li>Delicate</li>
@@ -49,7 +51,7 @@
 			<li>ElongatedFingers</li>
 		</genes>
 	</XenotypeDef>
-	<!-- Goblin -->
+	<!--Goblin-->
 	<XenotypeDef>
 		<defName>boomer_GoblinXeno</defName>
 		<label>Goblin</label>
@@ -73,7 +75,7 @@
 			<li>Learning_Slow</li>
 		</genes>
 	</XenotypeDef>
-	<!-- Wood Elf -->
+	<!--Wood elf-->
 	<XenotypeDef>
 		<defName>boomer_WoodElfXeno</defName>
 		<label>wood elf</label>
@@ -81,6 +83,7 @@
 		<descriptionShort>An nomadic humanoid from a habitable moon in the outer rim known as Faerie.</descriptionShort>
 		<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon4</iconPath>
 		<inheritable>true</inheritable>
+		<nameMaker>NamerPersonElven</nameMaker>
 		<genes>
 			<li>WoundHealing_Slow</li>
 			<li>MeleeDamage_Weak</li>
