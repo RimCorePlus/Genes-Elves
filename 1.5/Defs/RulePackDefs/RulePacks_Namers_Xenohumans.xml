@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<RulePackDef>
+		<defName>NamerPersonImpid</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->[firstName] [lastName]</li>
+				<li>firstName(p=0.5)->[SylI]</li>
+				<li>firstName(p=2)->[SylI][nameEnd]</li>
+				<li>firstName->[SylI][SylI][nameEnd]</li>
+				<li>lastName(p=2)->[SylI][nameEnd]</li>
+				<li>lastName->[SylI][nameEnd]</li>
+				<li>lastName->[SylI][SylI][nameEnd]</li>
+				<li>nameEnd->iv</li>
+				<li>nameEnd->ich</li>
+				<li>nameEnd->izz</li>
+				<li>nameEnd->in</li>
+				<li>nameEnd->ox</li>
+				<li>nameEnd->ov</li>
+				<li>nameEnd->rach</li>
+				<li>nameEnd->rath</li>
+				<li>nameEnd->rat</li>
+				<li>nameEnd->rov</li>
+				<li>nameEnd->rozz</li>
+				<li>nameEnd->ron</li>
+				<li>nameEnd->vin</li>
+				<li>nameEnd->von</li>
+				<li>nameEnd->vozz</li>
+				<li>nameEnd->ith</li>
+				<li>nameEnd->nove</li>
+				<li>nameEnd->novo</li>
+				<li>nameEnd->nav</li>
+				<li>nameEnd->naz</li>
+				<li>nameEnd->nath</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>SylI->WordParts/Syllables_Impid</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+</Defs>
