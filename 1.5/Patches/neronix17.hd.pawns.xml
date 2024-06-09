@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Pawns Retextured</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+            <operations>
+	            <li Class="PatchOperationReplace">
+	            	<xpath>/Defs/GeneDef[defName="Eyes_Violet"]/iconPath</xpath>
+	            	<value>
+	            		<iconPath>UI/Icons/Genes/Gene_Eyes</iconPath>
+	            	</value>
+	            </li>
+	            <li Class="PatchOperationAdd">
+	            	<xpath>/Defs/GeneDef[defName="Eyes_Violet"]</xpath>
+	            	<value>
+	            		<iconColor>(173, 37, 173)</iconColor>
+	            	</value>
+	            </li>
+	            <li Class="PatchOperationReplace">
+	            	<xpath>/Defs/GeneDef[defName="Eyes_Violet"]/renderNodeProperties</xpath>
+	            	<value>
+	            		<renderNodeProperties>
+	            			<li Class="PawnRenderNodeProperties_Eye">
+	            				<texPath>Things/Pawn/Humanlike/HeadAttachments/RecolourableEyes/Eyes_Male</texPath>
+	            				<texPathFemale>Things/Pawn/Humanlike/HeadAttachments/RecolourableEyes/Eyes_Female</texPathFemale>
+	            				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+	            				<parentTagDef>Head</parentTagDef>
+	            				<drawSize>1.0</drawSize>
+	            				<drawData>
+	            					<defaultData>
+	            						<layer>54</layer>
+	            						<offset>(0, 0, 0)</offset>
+	            					</defaultData>
+	            				</drawData>
+	            				<color>(173, 37, 173)</color>
+	            			</li>
+	            		</renderNodeProperties>
+	            	</value>
+	            </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>
