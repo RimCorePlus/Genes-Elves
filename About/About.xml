@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<packageId>boomer.elves</packageId>
-	<name>[b] Elves</name>
+	<name>elves</name>
 	<author>boomer</author>
 	<description>A compendium of elven humanoids.</description>
 	<supportedVersions>
