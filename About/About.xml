@@ -3,7 +3,7 @@
 	<packageId>boomer.elves</packageId>
 	<name>elves</name>
 	<author>boomer</author>
-	<description>A compendium of elven humanoids. Core complete.</description>
+	<description>A compendium of elven humanoids. Core complete. Icons stolen from VexedTrees.</description>
 	<supportedVersions>
 		<li>1.5</li>
 	</supportedVersions>
