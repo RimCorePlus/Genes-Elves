@@ -8,7 +8,7 @@
 			<operations>
 				<!--Uses goblin ears from AFU-->
 				<li Class="PatchOperationReplace">
-					<xpath>Defs/XenotypeDef[defName="boomer_GoblinXeno"]/genes</xpath>
+					<xpath>Defs/XenotypeDef[defName="GoblinXeno"]/genes</xpath>
 					<value>
 						<genes>
 							<li>Immunity_Strong</li>

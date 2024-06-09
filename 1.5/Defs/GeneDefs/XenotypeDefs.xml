@@ -2,7 +2,7 @@
 <Defs>
 	<!--Drow-->
 	<XenotypeDef>
-		<defName>boomer_DrowXeno</defName>
+		<defName>DrowXeno</defName>
 		<label>Drow</label>
 		<description>Also known as dark elves, this dark-skinned sub-race of elves lived on the dark side of a small, habitable moon. Their evolution in the overdark, the dark side of the moon, granted them exceptional vision in the dark. However, due to a lack of exposure to sunlight, they are more sensitive to UV rays than their elven counterparts.</description>
 		<descriptionShort>Also known as dark elves, this dark-skinned sub-race of elves lived in the overdark—the dark side of a habitable moon.</descriptionShort>
@@ -27,7 +27,7 @@
 	</XenotypeDef>
 	<!--Elf-->
 	<XenotypeDef>
-		<defName>boomer_ElfXeno</defName>
+		<defName>ElfXeno</defName>
 		<label>Elf</label>
 		<description>An evolved humanoid from a habitable moon in the outer rim. Free from most predators and held together by a utopian society, the elves have little experience in combat and bruise easily. They are exceptionally beautiful compared to their human ancestors.</description>
 		<descriptionShort>An evolved humanoid from a habitable moon in the outer rim known as Faerie.</descriptionShort>
@@ -51,7 +51,7 @@
 	</XenotypeDef>
 	<!--Goblin-->
 	<XenotypeDef>
-		<defName>boomer_GoblinXeno</defName>
+		<defName>GoblinXeno</defName>
 		<label>Goblin</label>
 		<description>A small, menacing cousin race of the elves known for their green skin and dimwitted antics. Raised in the underground caverns of Faerie, these small humanoids were often used as canon fodder by their Hobgoblin overlords. They lack even the most basic semblance of grace.</description>
 		<descriptionShort>A small, menacing cousin race of the elves known for their green skin and dimwitted antics.</descriptionShort>
@@ -75,7 +75,7 @@
 	</XenotypeDef>
 	<!--Wood elf-->
 	<XenotypeDef>
-		<defName>boomer_WoodElfXeno</defName>
+		<defName>WoodElfXeno</defName>
 		<label>wood elf</label>
 		<description>An evolved humanoid from a habitable moon in the outer rim. Wood elves rejected elven society to embrace a nomadic lifestyle. They are skilled hunters.</description>
 		<descriptionShort>An nomadic humanoid from a habitable moon in the outer rim known as Faerie.</descriptionShort>

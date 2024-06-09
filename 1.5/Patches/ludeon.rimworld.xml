@@ -5,22 +5,22 @@
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/XenotypeDef[defName="Sanguophage"]/doubleXenotypeChances</xpath>
 				<value>
-					<boomer_DrowXeno>0.01</boomer_DrowXeno>
-					<boomer_ElfXeno>0.01</boomer_ElfXeno>
-					<boomer_WoodElfXeno>0.01</boomer_WoodElfXeno>
+					<DrowXeno>0.01</DrowXeno>
+					<ElfXeno>0.01</ElfXeno>
+					<WoodElfXeno>0.01</WoodElfXeno>
 				</value>
 			</li>
 			<!--Adds xenos to vanilla factions-->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/FactionDef[@Name="OutlanderFactionBase"]/xenotypeSet/xenotypeChances</xpath>
 				<value>
-					<boomer_ElfXeno>0.05</boomer_ElfXeno>
+					<ElfXeno>0.05</ElfXeno>
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/FactionDef[@Name="PirateBandBase"]/xenotypeSet/xenotypeChances</xpath>
 				<value>
-					<boomer_DrowXeno>0.05</boomer_DrowXeno>
+					<DrowXeno>0.05</DrowXeno>
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
@@ -30,7 +30,7 @@
 				<value>
 					<xenotypeSet>
 						<xenotypeChances>
-							<boomer_WoodElfXeno>0.05</boomer_WoodElfXeno>
+							<WoodElfXeno>0.05</WoodElfXeno>
 						</xenotypeChances>
 					</xenotypeSet>
 				</value>

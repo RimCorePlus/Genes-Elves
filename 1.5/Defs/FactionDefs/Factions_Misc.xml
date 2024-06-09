@@ -41,9 +41,9 @@
 		</allowedCultures>
 		<xenotypeSet>
 			<xenotypeChances>
-				<boomer_DrowXeno>0.15</boomer_DrowXeno>
-				<boomer_ElfXeno>0.5</boomer_ElfXeno>
-				<boomer_WoodElfXeno>0.35</boomer_WoodElfXeno>
+				<DrowXeno>0.15</DrowXeno>
+				<ElfXeno>0.5</ElfXeno>
+				<WoodElfXeno>0.35</WoodElfXeno>
 			</xenotypeChances>
 		</xenotypeSet>
 	</FactionDef>
@@ -94,7 +94,7 @@
 		</allowedCultures>
 		<xenotypeSet>
 			<xenotypeChances>
-				<boomer_GoblinXeno>1</boomer_GoblinXeno>
+				<GoblinXeno>1</GoblinXeno>
 			</xenotypeChances>
 		</xenotypeSet>
 		<minSettlementTemperatureChanceCurve>

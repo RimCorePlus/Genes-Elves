@@ -9,8 +9,8 @@
 				<li Class="PatchOperationAdd">
 					<xpath>Defs/FactionDef[defName="Empire"]/xenotypeSet/xenotypeChances</xpath>
 					<value>
-						<boomer_DrowXeno>0.025</boomer_DrowXeno>
-						<boomer_ElfXeno>0.025</boomer_ElfXeno>
+						<DrowXeno>0.025</DrowXeno>
+						<ElfXeno>0.025</ElfXeno>
 					</value>
 				</li>
 				<!--Add elves to faction generation-->
@@ -19,25 +19,25 @@
 					defName="Pilgrims" or
 					defName="OutlanderRefugee"]/xenotypeSet/xenotypeChances</xpath>
 					<value>
-						<boomer_DrowXeno>0.025</boomer_DrowXeno>
-						<boomer_ElfXeno>0.025</boomer_ElfXeno>
-						<boomer_WoodElfXeno>0.025</boomer_WoodElfXeno>
+						<DrowXeno>0.025</DrowXeno>
+						<ElfXeno>0.025</ElfXeno>
+						<WoodElfXeno>0.025</WoodElfXeno>
 					</value>
 				</li>
 				<!--Add elves to pawnkind generation-->
 				<li Class="PatchOperationAdd">
 					<xpath>Defs/PawnKindDef[defName="Empire_Common_Trader"]/xenotypeSet/xenotypeChances</xpath>
 					<value>
-						<boomer_ElfXeno>0.025</boomer_ElfXeno>
+						<ElfXeno>0.025</ElfXeno>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
 					<xpath>Defs/PawnKindDef[defName="Slave_Empire" or
 					@Name="RefugeeBase"]/xenotypeSet/xenotypeChances</xpath>
 					<value>
-						<boomer_DrowXeno>0.025</boomer_DrowXeno>
-						<boomer_ElfXeno>0.025</boomer_ElfXeno>
-						<boomer_WoodElfXeno>0.025</boomer_WoodElfXeno>
+						<DrowXeno>0.025</DrowXeno>
+						<ElfXeno>0.025</ElfXeno>
+						<WoodElfXeno>0.025</WoodElfXeno>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
@@ -60,8 +60,8 @@
 					defName="Empire_Royal_Consul" or
 					defName="Empire_Royal_Stellarch"]/xenotypeSet/xenotypeChances</xpath>
 					<value>
-						<boomer_DrowXeno>0.025</boomer_DrowXeno>
-						<boomer_ElfXeno>0.025</boomer_ElfXeno>
+						<DrowXeno>0.025</DrowXeno>
+						<ElfXeno>0.025</ElfXeno>
 					</value>
 				</li>
 			</operations>
