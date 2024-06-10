@@ -18,7 +18,7 @@
 		</li>
 		<li>
 			<packageId>boomer.patches</packageId>
-			<displayName>Misc Patches</displayName>
+			<displayName>fried rice</displayName>
 			<downloadUrl>https://github.com/</downloadUrl>
 		</li>
 	</modDependencies>
@@ -26,7 +26,6 @@
 	<loadAfter>
 		<li>Ludeon.RimWorld.Biotech</li>
 		<li>boomer.patches</li>
-		<li>jintuzilamian.gene.xenocosmetic</li>
 	</loadAfter>
 	<incompatibleWith />
 </ModMetaData>
