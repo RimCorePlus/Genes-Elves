@@ -19,7 +19,7 @@
 		<li>
 			<packageId>boomer.patches</packageId>
 			<displayName>fried rice</displayName>
-			<downloadUrl>https://github.com/</downloadUrl>
+			<downloadUrl>https://github.com/boomerchan/boomer.patches</downloadUrl>
 		</li>
 	</modDependencies>
 	<loadBefore />
