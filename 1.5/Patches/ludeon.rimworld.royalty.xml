@@ -15,7 +15,7 @@
 					defName="Slave_Empire" or
 					@Name="RefugeeBase"]/xenotypeSet/xenotypeChances</xpath>
 					<value>
-						<SuccubusXeno>0.025</SuccubusXeno>
+						<ElfXeno>0.025</ElfXeno>
 					</value>
 				</li>
 			</operations>

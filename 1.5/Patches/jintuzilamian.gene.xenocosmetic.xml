@@ -5,8 +5,8 @@
 		</mods>
 		<match Class="PatchOperationSequence">
 			<success>Always</success>
+			<!--Uses goblin ears from AFU-->
 			<operations>
-				<!--Uses goblin ears from AFU-->
 				<li Class="PatchOperationReplace">
 					<xpath>Defs/XenotypeDef[defName="GoblinXeno"]/genes</xpath>
 					<value>
@@ -27,7 +27,7 @@
 						</genes>
 					</value>
 				</li>
-            </operations>
-        </match>
-    </Operation>
+			</operations>
+		</match>
+	</Operation>
 </Patch>

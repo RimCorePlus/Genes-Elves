@@ -1,7 +1,8 @@
 <Patch>
 	<Operation Class="PatchOperationSequence">
 		<operations>
-			<!--Adds Sanguophage double-xenos-->
+			<!--Adds Sanguophage double-xenos
+			breaks metabolism
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/XenotypeDef[defName="Sanguophage"]/doubleXenotypeChances</xpath>
 				<value>
@@ -9,7 +10,7 @@
 					<ElfXeno>0.01</ElfXeno>
 					<WoodElfXeno>0.01</WoodElfXeno>
 				</value>
-			</li>
+			</li>-->
 			<!--Adds xenos to vanilla factions-->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/FactionDef[@Name="OutlanderFactionBase"]/xenotypeSet/xenotypeChances</xpath>
