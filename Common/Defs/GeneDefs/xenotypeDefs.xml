@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<!--Drow-->
+	<XenotypeDef>
+		<defName>DrowXeno</defName>
+		<label>Drow</label>
+		<description>Also known as dark elves, this dark-skinned sub-race of elves lived on the dark side of a small, habitable moon. Their evolution in the overdark, the dark side of the moon, granted them exceptional vision in the dark. However, due to a lack of exposure to sunlight, they are more sensitive to UV rays than their elven counterparts.</description>
+		<descriptionShort>Also known as dark elves, this dark-skinned sub-race of elves lived in the overdark—the dark side of a habitable moon.</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/elf</iconPath>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>MinTemp_SmallDecrease</li>
+			<li>UVSensitivity_Mild</li>
+			<li>Eyes_Violet</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>Ears_Pointed</li>
+			<li>Body_Standard</li>
+			<li>Body_Thin</li>
+			<li>Hair_SnowWhite</li>
+			<li>Hair_DarkBlack</li>
+			<li>Hair_InkBlack</li>
+			<li>Skin_Blue</li>
+			<li>Skin_SlateGray</li>
+			<li>DarkVision</li>
+			<li>ElongatedFingers</li>
+		</genes>
+	</XenotypeDef>
+	<!--Elf-->
+	<XenotypeDef>
+		<defName>ElfXeno</defName>
+		<label>Elf</label>
+		<description>An evolved humanoid from a habitable moon in the outer rim. Free from most predators and held together by a utopian society, the elves have little experience in combat and bruise easily. They are exceptionally beautiful compared to their human ancestors.</description>
+		<descriptionShort>An evolved humanoid from a habitable moon in the outer rim known as Faerie.</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/elf</iconPath>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>Aggression_DeadCalm</li>
+			<li>Delicate</li>
+			<li>Beauty_Pretty</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>Ears_Pointed</li>
+			<li>Body_Standard</li>
+			<li>Body_Thin</li>
+			<li>Hair_SnowWhite</li>
+			<li>Hair_Blonde</li>
+			<li>Hair_SandyBlonde</li>
+			<li>Skin_Melanin2</li>
+			<li>Skin_Melanin3</li>
+			<li>ElongatedFingers</li>
+		</genes>
+	</XenotypeDef>
+	<!--Goblin-->
+	<XenotypeDef>
+		<defName>GoblinXeno</defName>
+		<label>Goblin</label>
+		<description>A small, menacing cousin race of the elves known for their green skin and dimwitted antics. Raised in the underground caverns of Faerie, these small humanoids were often used as canon fodder by their Hobgoblin overlords. They lack even the most basic semblance of grace.</description>
+		<descriptionShort>A small, menacing cousin race of the elves known for their green skin and dimwitted antics.</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/goblin</iconPath>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>Immunity_Strong</li>
+			<li>MeleeDamage_Weak</li>
+			<li>Pain_Reduced</li>
+			<li>Libido_High</li>
+			<li>Fertile</li>
+			<li>Body_Thin</li>
+			<li>Ears_Pointed</li>
+			<li>Hair_DarkBrown</li>
+			<li>Hair_DarkSaturatedReddish</li>
+			<li>Hair_MidBlack</li>
+			<li>Skin_Green</li>
+			<li>StrongStomach</li>
+			<li>Learning_Slow</li>
+		</genes>
+	</XenotypeDef>
+	<!--Wood elf-->
+	<XenotypeDef>
+		<defName>WoodElfXeno</defName>
+		<label>wood elf</label>
+		<description>An evolved humanoid from a habitable moon in the outer rim. Wood elves rejected elven society to embrace a nomadic lifestyle. They are skilled hunters.</description>
+		<descriptionShort>An nomadic humanoid from a habitable moon in the outer rim known as Faerie.</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/elf</iconPath>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>WoundHealing_Slow</li>
+			<li>MeleeDamage_Weak</li>
+			<li>Robust</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>Ears_Pointed</li>
+			<li>Body_Standard</li>
+			<li>Body_Thin</li>
+			<li>Hair_ReddishBrown</li>
+			<li>Hair_DarkReddish</li>
+			<li>Hair_DarkBlack</li>
+			<li>Skin_PaleYellow</li>
+			<li>ElongatedFingers</li>
+		</genes>
+	</XenotypeDef>
+</Defs>

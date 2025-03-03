@@ -1,0 +1,24 @@
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Royalty</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<!--Add succubi to faction generation-->
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/FactionDef[defName="Empire" or
+					defName="Beggars" or
+					defName="Pilgrims" or
+					defName="OutlanderRefugee" or
+					defName="Empire_Common_Trader" or
+					defName="Slave_Empire" or
+					@Name="RefugeeBase"]/xenotypeSet/xenotypeChances</xpath>
+					<value>
+						<ElfXeno>0.025</ElfXeno>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
