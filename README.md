@@ -1,4 +1,4 @@
-# elves
+# elf expansion
 Scope of this mod:
 - Add fae xenoptypes and other related content
 
