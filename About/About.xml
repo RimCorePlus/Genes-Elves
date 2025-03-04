@@ -23,8 +23,9 @@
 	</modDependencies>
 	<loadBefore />
 	<loadAfter>
-		<li>Ludeon.RimWorld.Biotech</li>
 		<li>friedrice.patches</li>
+		<li>friedrice.noegg</li>
+		<li>friedrice.genes</li>
 	</loadAfter>
 	<incompatibleWith />
 </ModMetaData>
