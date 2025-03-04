@@ -1,5 +1,5 @@
 <ModMetaData>
-	<packageId>boomer.elves</packageId>
+	<packageId>friedrice.elves</packageId>
 	<name>elf expansion</name>
 	<author>boomer</author>
 	<description>A compendium of elven humanoids. Core complete. Icons stolen from VexedTrees.</description>
@@ -8,7 +8,7 @@
 	</supportedVersions>
 	<modVersion>1.5.1</modVersion>
 	<modIconPath IgnoreIfNoMatchingField="True" />
-	<url>https://github.com/boomersama/boomer.elves</url>
+	<url>https://github.com/friedriceworld/elf-expansion</url>
 	<modDependencies>
 		<li>
 			<packageId>Ludeon.RimWorld.Biotech</packageId>
@@ -16,15 +16,15 @@
 			<steamWorkshopUrl>BiotechsSteamStorePage</steamWorkshopUrl>
 		</li>
 		<li>
-			<packageId>boomer.patches</packageId>
+			<packageId>friedrice.patches</packageId>
 			<displayName>fried rice</displayName>
-			<downloadUrl>https://github.com/boomerchan/boomer.patches</downloadUrl>
+			<downloadUrl>https://github.com/friedriceworld/fried-rice</downloadUrl>
 		</li>
 	</modDependencies>
 	<loadBefore />
 	<loadAfter>
 		<li>Ludeon.RimWorld.Biotech</li>
-		<li>boomer.patches</li>
+		<li>friedrice.patches</li>
 	</loadAfter>
 	<incompatibleWith />
 </ModMetaData>
