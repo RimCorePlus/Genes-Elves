@@ -1,4 +1,6 @@
 # elf expansion
+![](About/Preview.png)
+
 Scope of this mod:
 - Add fae xenoptypes and other related content
 
