@@ -8,12 +8,12 @@
 		<leaderTitle>high elf</leaderTitle>
 		<categoryTag>Outlander</categoryTag>
 		<techLevel>Industrial</techLevel>
-		<description>Despite being mortal enemies on Faerie, some of the elves on this world have joined forces to build a society away from humans. They work with simple machinery and defend themselves with advanced gunpowder weapons.\n\nThey are concerned with securing the existence of their people and a future for elven children.\n\nThis group is wary of outsiders; it may be difficult to turn them into an ally.</description>
-		<factionIconPath>World/WorldObjects/Expanding/RoughPigUnion</factionIconPath>
+		<description>Despite being mortal enemies on Faerie, some of the elves on this world have joined forces to build a society away from humans. They are concerned with securing the existence of their people and a future for elven children.\n\nThis group is wary of outsiders; it may be difficult to turn them into an ally.</description>
+		<factionIconPath>World/WorldObjects/Expanding/elfSyndicate</factionIconPath>
 		<listOrderPriority>32</listOrderPriority>
 		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
 		<configurationListOrderPriority>20</configurationListOrderPriority>
-		<settlementGenerationWeight>0.8</settlementGenerationWeight>
+		<settlementGenerationWeight>0.75</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
 		<colorSpectrum>
 			<li>(0.39, 0.65, 0.76)</li>
@@ -40,9 +40,9 @@
 		</allowedCultures>
 		<xenotypeSet Inherit="False">
 			<xenotypeChances>
-				<DrowXeno>0.15</DrowXeno>
-				<ElfXeno>0.5</ElfXeno>
-				<WoodElfXeno>0.35</WoodElfXeno>
+				<frElves_darkElf>0.15</frElves_darkElf>
+				<frElves_highElf>0.5</frElves_highElf>
+				<frElves_woodElf>0.35</frElves_woodElf>
 			</xenotypeChances>
 		</xenotypeSet>
 	</FactionDef>
@@ -55,20 +55,20 @@
 		<leaderTitle>chieftain</leaderTitle>
 		<categoryTag>Outlander</categoryTag>
 		<techLevel>Neolithic</techLevel>
-		<description>A large coalition of goblins who've agreed to mostly fight outsiders instead of fighting each other. They are mostly nomadic and enrich themselves by raiding and robbing their more productive neighbors.\n\nThe horde is wary of outsiders; it may be difficult to turn them into an ally.</description>
-		<factionIconPath>World/WorldObjects/Expanding/FierceNeanderthalTribe</factionIconPath>
+		<description>A large coalition of goblins who've agreed to fight outsiders instead of each other. They are mostly nomadic and enrich themselves by raiding and robbing their more productive neighbors.</description>
+		<factionIconPath>World/WorldObjects/Expanding/goblinHorde</factionIconPath>
 		<factionNameMaker>NamerFactionTribalNeanderthal</factionNameMaker>
 		<settlementNameMaker>NamerSettlementTribalNeaderthal</settlementNameMaker>
 		<listOrderPriority>32</listOrderPriority>
 		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
 		<configurationListOrderPriority>40</configurationListOrderPriority>
-		<settlementGenerationWeight>0.8</settlementGenerationWeight>
+		<settlementGenerationWeight>0.75</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
 		<colorSpectrum>
 			<li>(0.66, 0.71, 0.42)</li>
 			<li>(0.46, 0.51, 0.22)</li>
 		</colorSpectrum>
-		<naturalEnemy>true</naturalEnemy>
+		<permanentEnemy>true</permanentEnemy>
 		<requiredMemes Inherit="False">
 			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
@@ -93,7 +93,8 @@
 		</allowedCultures>
 		<xenotypeSet Inherit="False">
 			<xenotypeChances>
-				<GoblinXeno>1</GoblinXeno>
+				<frElves_goblin>99</frElves_goblin>
+				<frElves_hobgoblin>1</frElves_hobgoblin>
 			</xenotypeChances>
 		</xenotypeSet>
 		<minSettlementTemperatureChanceCurve>
@@ -105,5 +106,14 @@
 				<li>(24,1.0)</li>
 			</points>
 		</minSettlementTemperatureChanceCurve>
+		<modExtensions>
+			<li Class="VFECore.FactionDefExtension">
+				<allowedBiomes>
+					<li>ColdBog</li>
+					<li>TemperateSwamp</li>
+					<li>TropicalSwamp</li>
+				</allowedBiomes>
+			</li>
+		</modExtensions>
 	</FactionDef>
 </Defs>

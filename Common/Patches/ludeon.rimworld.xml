@@ -1,33 +1,32 @@
 <Patch>
 	<Operation Class="PatchOperationSequence">
 		<operations>
-			<!--adds sanguophage double-xenos
-			breaks metabolism
+			<!--add sanguophage double-xenos-->
 			<li Class="PatchOperationAdd">
 				<xpath>//XenotypeDef[defName="Sanguophage"]/doubleXenotypeChances</xpath>
 				<value>
-					<DrowXeno>0.01</DrowXeno>
-					<ElfXeno>0.01</ElfXeno>
-					<WoodElfXeno>0.01</WoodElfXeno>
+					<frElves_darkElf>0.01</frElves_darkElf>
+					<frElves_highElf>0.01</frElves_highElf>
+					<frElves_woodElf>0.01</frElves_woodElf>
 				</value>
-			</li>-->
-			<!--adds xenos to vanilla factions-->
+			</li>
+			<!--add xenos to vanilla factions-->
 			<li Class="PatchOperationAdd">
 				<xpath>//FactionDef[@Name="OutlanderFactionBase"]/xenotypeSet/xenotypeChances</xpath>
 				<value>
-					<ElfXeno>0.05</ElfXeno>
+					<frElves_highElf>0.05</frElves_highElf>
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>//FactionDef[@Name="PirateBandBase"]/xenotypeSet/xenotypeChances</xpath>
 				<value>
-					<DrowXeno>0.05</DrowXeno>
+					<frElves_darkElf>0.05</frElves_darkElf>
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>//FactionDef[@Name="TribeBase"]/xenotypeSet/xenotypeChances</xpath>
 				<value>
-					<WoodElfXeno>0.05</WoodElfXeno>
+					<frElves_woodElf>0.05</frElves_woodElf>
 				</value>
 			</li>
 		</operations>

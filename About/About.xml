@@ -16,13 +16,15 @@
 			<steamWorkshopUrl>BiotechsSteamStorePage</steamWorkshopUrl>
 		</li>
 		<li>
-			<packageId>friedrice.patches</packageId>
-			<displayName>fried rice</displayName>
-			<downloadUrl>https://github.com/friedriceworld/fried-rice</downloadUrl>
+			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+			<displayName>Vanilla Expanded Framework</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
+			<downloadUrl>https://github.com/Vanilla-Expanded/VanillaExpandedFramework</downloadUrl>
 		</li>
 	</modDependencies>
 	<loadBefore />
 	<loadAfter>
+		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
 		<li>friedrice.patches</li>
 		<li>friedrice.noegg</li>
 		<li>friedrice.genes</li>

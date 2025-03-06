@@ -5,27 +5,10 @@
 		</mods>
 		<match Class="PatchOperationSequence">
 			<success>Always</success>
-			<!--Uses goblin ears from AFU-->
+			<!--uses goblin ears from AFU-->
 			<operations>
-				<li Class="PatchOperationReplace">
-					<xpath>//XenotypeDef[defName="GoblinXeno"]/genes</xpath>
-					<value>
-						<genes>
-							<li>Immunity_Strong</li>
-							<li>MeleeDamage_Weak</li>
-							<li>Pain_Reduced</li>
-							<li>Libido_High</li>
-							<li>Fertile</li>
-							<li>Body_Thin</li>
-							<li>AFU_HA_GoblinEar</li>
-							<li>Hair_DarkBrown</li>
-							<li>Hair_DarkSaturatedReddish</li>
-							<li>Hair_MidBlack</li>
-							<li>Skin_Green</li>
-							<li>StrongStomach</li>
-							<li>Learning_Slow</li>
-						</genes>
-					</value>
+				<li Class="PatchOperationRemove">
+					<xpath>//XenotypeDef[defName="frElves_goblin"]/genes/li[text()="Ears_Pointed"]</xpath>
 				</li>
 			</operations>
 		</match>
