@@ -1,6 +1,6 @@
 <ModMetaData>
-	<packageId>friedrice.elves</packageId>
-	<name>elf expansion</name>
+	<packageId>coreplus.elves</packageId>
+	<name>[Core+] Elves</name>
 	<author>boomer</author>
 	<description />
 	<supportedVersions>
@@ -16,6 +16,11 @@
 			<steamWorkshopUrl>BiotechsSteamStorePage</steamWorkshopUrl>
 		</li>
 		<li>
+			<packageId>coreplus.genes</packageId>
+			<displayName>gene expansion</displayName>
+			<downloadUrl>https://github.com/friedriceworld/gene-expansion</downloadUrl>
+		</li>
+		<li>
 			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
 			<displayName>Vanilla Expanded Framework</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
@@ -25,9 +30,9 @@
 	<loadBefore />
 	<loadAfter>
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
-		<li>friedrice.patches</li>
-		<li>friedrice.noegg</li>
-		<li>friedrice.genes</li>
+		<li>coreplus.rebalance</li>
+		<li>coreplus.debloat</li>
+		<li>coreplus.genes</li>
 	</loadAfter>
 	<incompatibleWith />
 </ModMetaData>
