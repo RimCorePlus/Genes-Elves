@@ -28,7 +28,7 @@ Scope of this mod:
 - [ ] Add original content for the elf syndicate faction
 - [ ] Write new pawnkinddefs and raid compositions for goblin horde
 
-# Legal
+## Legal
 Portions of the materials used to create this mod are trademarks and/or copyrighted works of Ludeon Studios Inc. All rights reserved by Ludeon. This mod is not official and is not endorsed by Ludeon.
 
 Elf by Lima Studio from [Noun Project](https://thenounproject.com/) (CC BY 3.0)\
