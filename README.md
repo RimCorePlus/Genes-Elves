@@ -10,8 +10,7 @@
 [badge-dlc-anomaly]: https://img.shields.io/badge/DLC-Anomaly-darkseagreen
 
 # elf expansion
-![](About/Preview.png)
-
+![](About/Preview.png)\
 [![GPLv3][badge-license]](https://www.gnu.org/licenses/gpl-3.0) ![Supports Biotech][badge-dlc-biotech]
 
 Scope of this mod:
@@ -24,10 +23,10 @@ Scope of this mod:
 - Elves, drow, wood elves, and an industrial faction for them
 - Goblins, hobgoblins, and a tribal faction for them
 
-## To-do:
-- Add Vanilla Apparel Expanded tunic to elf syndicate pawnkind tags
-- Flesh out factions with unique content
-- - Mainly pawnkinds and raid compositions, not a bloated compendium of elf-themed crap
+## Version 1.0:
+- [ ] Rewrite elf pawnkinddefs to be more distinct from vanilla industrial pawnkinds
+- [ ] Add original content for the elf syndicate faction
+- [ ] Write new pawnkinddefs and raid compositions for goblin horde
 
 # Legal
 Portions of the materials used to create this mod are trademarks and/or copyrighted works of Ludeon Studios Inc. All rights reserved by Ludeon. This mod is not official and is not endorsed by Ludeon.
