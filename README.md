@@ -24,18 +24,6 @@ Scope of this mod:
 - Elven steel, a rare variant of steel that can only be forged by the elves
 - Goblins, hobgoblins, and a tribal faction for them
 
-## Version 1.0:
-- [ ] Rewrite elf pawnkinddefs to be more distinct from vanilla industrial pawnkinds
-- [ ] Add original content for the elf syndicate faction
-- - [x] Add elven steel, a variant of steel with half the weight and slightly better armor piercing
-- - - [ ] This should only be equipped, traded by and craftable by elven factions
-- - - [ ] Maybe a techprint so non-elf player colonies can craft it?
-- [ ] Write new pawnkinddefs and raid compositions for goblin horde
-
-## Soon(er or later)
-- [ ] Dwarves
-- [ ] Mithral
-
 ## Recommended Mods
 - [Vanilla Expanded Framework](https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013) is required
 - [Stuff Mass Matters](https://steamcommunity.com/sharedfiles/filedetails/?id=2787438435) to get the most out of elven steel's low weight
