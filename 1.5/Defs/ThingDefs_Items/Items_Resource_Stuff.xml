@@ -1,0 +1,53 @@
+<Defs>
+    <ThingDef ParentName="ResourceBase">
+        <defName>CorePlus_ElvenSteel</defName>
+        <label>elven steel</label>
+        <description>A iron-carbon metal alloy forged by the elves. It is half the weight of regular steel.\n\nGreat for smithing sharp weapons and building on terrain with low weight affordance, but terrible for blunt weapons.</description>
+        <graphicData>
+            <texPath>Things/Item/Resource/CorePlus_Steel</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+            <color>(120,115,70)</color>
+        </graphicData>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Metal_Drop</soundDrop>
+        <statBases>
+            <MarketValue>5</MarketValue>
+            <Mass>0.25</Mass>
+            <StuffPower_Armor_Sharp>0.9</StuffPower_Armor_Sharp>
+            <StuffPower_Armor_Blunt>0.45</StuffPower_Armor_Blunt>
+            <StuffPower_Armor_Heat>0.60</StuffPower_Armor_Heat>
+            <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+            <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+            <SharpDamageMultiplier>1.1</SharpDamageMultiplier>
+            <BluntDamageMultiplier>0.8</BluntDamageMultiplier>
+        </statBases>
+        <useHitPoints>false</useHitPoints>
+        <healthAffectsPrice>false</healthAffectsPrice>
+        <thingCategories>
+            <li>ResourcesRaw</li>
+        </thingCategories>
+        <burnableByRecipe>false</burnableByRecipe>
+        <smeltable>true</smeltable>
+        <stuffProps>
+            <categories>
+                <li>Metallic</li>
+            </categories>
+            <appearance>Metal</appearance>
+            <commonality>1.00</commonality>
+            <constructEffect>ConstructMetal</constructEffect>
+            <color>(120,115,70)</color>
+            <soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
+            <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+            <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+            <soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Metal</soundImpactMelee>
+            <statFactors>
+                <MaxHitPoints>1</MaxHitPoints>
+                <Beauty>1</Beauty>
+                <Flammability>0.4</Flammability>
+            </statFactors>
+            <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+        </stuffProps>
+        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+        <allowedArchonexusCount>80</allowedArchonexusCount>
+    </ThingDef>
+</Defs>

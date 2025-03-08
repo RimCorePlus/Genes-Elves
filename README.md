@@ -9,7 +9,7 @@
 <!--![Supports Anomaly][badge-dlc-anomaly] supports Anomaly DLC-->
 [badge-dlc-anomaly]: https://img.shields.io/badge/DLC-Anomaly-darkseagreen
 
-# [Core+] Elves
+# [Core+] Genes - Elves
 ![](About/Preview.png)\
 [![GPLv3][badge-license]](https://www.gnu.org/licenses/gpl-3.0) ![Supports Biotech][badge-dlc-biotech]
 
@@ -21,12 +21,21 @@ Scope of this mod:
 
 ## Additions
 - Elves, drow, wood elves, and an industrial faction for them
+- Elven steel, a rare variant of steel that can only be forged by the elves
 - Goblins, hobgoblins, and a tribal faction for them
 
 ## Version 1.0:
 - [ ] Rewrite elf pawnkinddefs to be more distinct from vanilla industrial pawnkinds
 - [ ] Add original content for the elf syndicate faction
+- - [x] Add elven steel, a variant of steel with half the weight and slightly better armor piercing
+- - - [ ] This should only be equipped, traded by and craftable by elven factions
+- - - [ ] Maybe a techprint so non-elf player colonies can craft it?
 - [ ] Write new pawnkinddefs and raid compositions for goblin horde
+
+## Recommended Mods
+- [Vanilla Expanded Framework](https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013) is required
+- [Stuff Mass Matters](https://steamcommunity.com/sharedfiles/filedetails/?id=2787438435) to get the most out of elven steel's low weight
+- [\[Core+\] Industry - Metal](https://github.com/RimCorePlus/Industry-Metal) to add a production chain for elven steel
 
 ## Legal
 Portions of the materials used to create this mod are trademarks and/or copyrighted works of Ludeon Studios Inc. All rights reserved by Ludeon. This mod is not official and is not endorsed by Ludeon.
