@@ -32,6 +32,10 @@ Scope of this mod:
 - - - [ ] Maybe a techprint so non-elf player colonies can craft it?
 - [ ] Write new pawnkinddefs and raid compositions for goblin horde
 
+## Soon(er or later)
+- [ ] Dwarves
+- [ ] Mithral
+
 ## Recommended Mods
 - [Vanilla Expanded Framework](https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013) is required
 - [Stuff Mass Matters](https://steamcommunity.com/sharedfiles/filedetails/?id=2787438435) to get the most out of elven steel's low weight
