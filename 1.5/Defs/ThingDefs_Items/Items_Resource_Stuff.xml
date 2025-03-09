@@ -49,5 +49,11 @@
         </stuffProps>
         <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
         <allowedArchonexusCount>80</allowedArchonexusCount>
+        <!--I'm doing this completely wrong lol
+        <recipeMaker>
+            <factionPrerequisiteTags>
+                <li>Elven</li>
+            </factionPrerequisiteTags>
+        </recipeMaker>-->
     </ThingDef>
 </Defs>

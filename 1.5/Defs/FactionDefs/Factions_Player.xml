@@ -1,0 +1,40 @@
+<Defs>
+    <FactionDef ParentName="PlayerFactionBase">
+        <defName>PlayerElves</defName>
+        <label>Elf Settlement</label>
+        <description>A colony of recently-arrived off-worlders.</description>
+        <isPlayer>true</isPlayer>
+        <basicMemberKind>Colonist</basicMemberKind>
+        <pawnSingular>settler</pawnSingular>
+        <pawnsPlural>settlers</pawnsPlural>
+        <techLevel>Medieval</techLevel>
+        <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+        <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+        <allowedCultures>
+            <li>Astropolitan</li>
+        </allowedCultures>
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>Offworld</li>
+                </categories>
+            </li>
+        </backstoryFilters>
+        <factionIconPath>World/WorldObjects/Expanding/ElfSyndicate</factionIconPath>
+        <!--<startingResearchTags>
+            <li>ElvenStart</li>
+        </startingResearchTags>
+        <startingTechprintsResearchTags>
+            <li>ElvenStart</li>
+            <li>ElvenStartTechprints</li>
+        </startingTechprintsResearchTags>
+        <recipePrerequisiteTags>
+            <li>Elven</li>
+        </recipePrerequisiteTags>-->
+        <apparelStuffFilter>
+            <thingDefs>
+                <li>Cloth</li>
+            </thingDefs>
+        </apparelStuffFilter>
+    </FactionDef>
+</Defs>
