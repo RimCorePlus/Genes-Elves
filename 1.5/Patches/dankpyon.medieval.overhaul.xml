@@ -1,0 +1,18 @@
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Medieval Overhaul</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>//FactionDef[starts-with(defName, "DankPyon_NobleHouse")]/xenotypeSet/xenotypeChances</xpath>
+                    <value>
+                        <frElves_darkElf>0.025</frElves_darkElf>
+                        <frElves_highElf>0.05</frElves_highElf>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>
