@@ -28,10 +28,11 @@
 	</modDependencies>
 	<loadBefore />
 	<loadAfter>
-		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
 		<li>coreplus.rebalance</li>
 		<li>coreplus.debloat</li>
 		<li>coreplus.genes</li>
+		<li>dankpyon.medieval.overhaul</li>
+		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
 	</loadAfter>
 	<incompatibleWith />
 </ModMetaData>
