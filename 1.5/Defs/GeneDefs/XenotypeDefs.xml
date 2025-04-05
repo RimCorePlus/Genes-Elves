@@ -13,7 +13,7 @@
 			<li>Body_Thin</li>
 			<li>Delicate</li>
 			<li>Ears_Pointed</li>
-			<li>CorePlus_EyesViolet</li>
+			<li MayRequire="oppey.eyegenes2">Eyes_DarkPurple</li>
 			<li>Hair_DarkBlack</li>
 			<li>Hair_InkBlack</li>
 			<li>Hair_SnowWhite</li>
