@@ -7,7 +7,7 @@
             <operations>
                 <!--remove vanilla accuracy since we have combat extended accuracy-->
                 <li Class="PatchOperationRemove">
-                    <xpath>//GeneDef[defName="frElves_elvenAccuracy"]/statOffsets/ShootingAccuracyPawn</xpath>
+                    <xpath>//GeneDef[defName="CorePlus_ElvenAccuracy"]/statOffsets/ShootingAccuracyPawn</xpath>
                 </li>
             </operations>
         </match>

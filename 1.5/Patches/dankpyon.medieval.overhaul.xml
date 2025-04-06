@@ -8,8 +8,8 @@
                 <li Class="PatchOperationAdd">
                     <xpath>//FactionDef[starts-with(defName, "DankPyon_NobleHouse")]/xenotypeSet/xenotypeChances</xpath>
                     <value>
-                        <frElves_darkElf>0.025</frElves_darkElf>
-                        <frElves_highElf>0.05</frElves_highElf>
+                        <CorePlus_DarkElf>0.025</CorePlus_DarkElf>
+                        <CorePlus_HighElf>0.05</CorePlus_HighElf>
                     </value>
                 </li>
             </operations>

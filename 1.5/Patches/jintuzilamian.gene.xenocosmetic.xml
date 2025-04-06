@@ -8,7 +8,7 @@
 			<!--uses goblin ears from AFU-->
 			<operations>
 				<li Class="PatchOperationRemove">
-					<xpath>//XenotypeDef[defName="frElves_goblin"]/genes/li[text()="Ears_Pointed"]</xpath>
+					<xpath>//XenotypeDef[defName="CorePlus_Goblin"]/genes/li[text()="Ears_Pointed"]</xpath>
 				</li>
 			</operations>
 		</match>

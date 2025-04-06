@@ -20,7 +20,7 @@
                 </categories>
             </li>
         </backstoryFilters>
-        <factionIconPath>World/WorldObjects/Expanding/ElfSyndicate</factionIconPath>
+        <factionIconPath>World/WorldObjects/Expanding/CorePlus_ElfSyndicate</factionIconPath>
         <!--<startingResearchTags>
             <li>ElvenStart</li>
         </startingResearchTags>
