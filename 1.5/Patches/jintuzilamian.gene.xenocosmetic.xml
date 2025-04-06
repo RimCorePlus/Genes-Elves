@@ -4,7 +4,6 @@
 			<li>AFU Cosmetic Gene Expanded</li>
 		</mods>
 		<match Class="PatchOperationSequence">
-			<success>Always</success>
 			<!--uses goblin ears from AFU-->
 			<operations>
 				<li Class="PatchOperationRemove">
