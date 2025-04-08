@@ -1,0 +1,27 @@
+<Patch>
+	<!--prioritize lycanthrope superior dark vision over mine and buff night vision-->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Races Expanded - Lycanthrope</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>//XenotypeDef/genes/li[text()="CorePlus_SuperiorDarkVision"]</xpath>
+					<value>
+						<li>VRE_SuperiorDarkVision</li>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>//GeneDef[defName="VRE_SuperiorDarkVision"]/statOffsets/NightVisionEfficiency</xpath>
+					<value>
+						<NightVisionEfficiency MayRequire="ceteam.combatextended">1</NightVisionEfficiency>
+					</value>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>//GeneDef[defName="CorePlus_SuperiorDarkVision"]</xpath>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
