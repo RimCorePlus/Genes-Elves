@@ -8,6 +8,7 @@
 		<iconPath>UI/Icons/Xenotypes/HighElf</iconPath>
 		<inheritable>true</inheritable>
 		<genes>
+			<li MayRequire="neronix17.outland.genetics">Outland_ElvenEars</li>
 			<li>Beard_NoBeardOnly</li>
 			<li>Body_Standard</li>
 			<li>Body_Thin</li>
@@ -33,6 +34,7 @@
 		<iconPath>UI/Icons/Xenotypes/HighElf</iconPath>
 		<inheritable>true</inheritable>
 		<genes>
+			<li MayRequire="neronix17.outland.genetics">Outland_ElvenEars</li>
 			<li>Beard_NoBeardOnly</li>
 			<li>Body_Standard</li>
 			<li>Body_Thin</li>
@@ -55,7 +57,8 @@
 		<iconPath>UI/Icons/Xenotypes/Goblin</iconPath>
 		<inheritable>true</inheritable>
 		<genes>
-			<li MayRequire="jintuzilamian.gene.xenocosmetic">AFU_HA_GoblinEar</li>
+			<li MayRequire="neronix17.outland.genetics">Outland_LesserGoblinoidHead</li>
+			<li MayRequire="neronix17.outland.genetics">Outland_Ears_Goblinoid</li>
 			<li>Aggression_Aggressive</li>
 			<li>Beauty_VeryUgly</li>
 			<li>Body_Thin</li>
@@ -83,11 +86,13 @@
 		<factionlessGenerationWeight>0</factionlessGenerationWeight>
 		<inheritable>true</inheritable>
 		<genes>
-			<li>AFU_HA_GoblinEar</li>
+			<li MayRequire="neronix17.outland.genetics">Outland_GreaterGoblinoidHead</li>
+			<li MayRequire="neronix17.outland.genetics">Outland_Ears_Goblinoid</li>
 			<li>Aggression_Aggressive</li>
 			<li>CorePlus_AlwaysMale</li>
 			<li>Beauty_VeryUgly</li>
 			<li>Body_Hulk</li>
+			<li>Ears_Pointed</li>
 			<li>Hair_DarkBrown</li>
 			<li>Hair_DarkSaturatedReddish</li>
 			<li>Hair_MidBlack</li>
@@ -113,6 +118,7 @@
 		<iconPath>UI/Icons/Xenotypes/HighElf</iconPath>
 		<inheritable>true</inheritable>
 		<genes>
+			<li MayRequire="neronix17.outland.genetics">Outland_ElvenEars</li>
 			<li>Beard_NoBeardOnly</li>
 			<li>Body_Standard</li>
 			<li>Body_Thin</li>

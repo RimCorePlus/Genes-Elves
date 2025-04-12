@@ -1,7 +1,7 @@
-<Patch>	<!--phasing out AFU
+<Patch>
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>AFU Cosmetic Gene Expanded</li>
+			<li>Outland - Genetics</li>
 		</mods>
 		<match Class="PatchOperationSequence">
 			<operations>
@@ -10,5 +10,5 @@
 				</li>
 			</operations>
 		</match>
-	</Operation>-->
+	</Operation>
 </Patch>

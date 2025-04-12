@@ -28,11 +28,16 @@
 	</modDependencies>
 	<loadBefore />
 	<loadAfter>
-		<li>coreplus.rebalance</li>
-		<li>coreplus.debloat</li>
+		<li>boomer.debloat</li>
+		<li>ceteam.combatextended</li>
 		<li>coreplus.genes</li>
+		<li>coreplus.rebalance</li>
 		<li>dankpyon.medieval.overhaul</li>
+		<li>ludeon.rimworld.biotech</li>
+		<li>ludeon.rimworld.royalty</li>
+		<li>neronix17.outland.genetics</li>
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+		<li>vanillaracesexpanded.lycanthrope</li>
 	</loadAfter>
 	<incompatibleWith />
 </ModMetaData>
