@@ -8,7 +8,7 @@
 		<iconPath>UI/Icons/Xenotypes/HighElf</iconPath>
 		<inheritable>true</inheritable>
 		<genes>
-			<li MayRequire="neronix17.outland.genetics">Outland_ElvenEars</li>
+			<!--<li MayRequire="jintuzilamian.gene.xenocosmetic">Outland_ElvenEars</li>-->
 			<li>Beard_NoBeardOnly</li>
 			<li>Body_Standard</li>
 			<li>Body_Thin</li>
@@ -34,7 +34,7 @@
 		<iconPath>UI/Icons/Xenotypes/HighElf</iconPath>
 		<inheritable>true</inheritable>
 		<genes>
-			<li MayRequire="neronix17.outland.genetics">Outland_ElvenEars</li>
+			<!--<li MayRequire="jintuzilamian.gene.xenocosmetic">Outland_ElvenEars</li>-->
 			<li>Beard_NoBeardOnly</li>
 			<li>Body_Standard</li>
 			<li>Body_Thin</li>
@@ -57,8 +57,8 @@
 		<iconPath>UI/Icons/Xenotypes/Goblin</iconPath>
 		<inheritable>true</inheritable>
 		<genes>
-			<li MayRequire="neronix17.outland.genetics">Outland_LesserGoblinoidHead</li>
-			<li MayRequire="neronix17.outland.genetics">Outland_Ears_Goblinoid</li>
+			<!--<li MayRequire="neronix17.outland.genetics">Outland_LesserGoblinoidHead</li>-->
+			<!--<li MayRequire="neronix17.outland.genetics">Outland_Ears_Goblinoid</li>-->
 			<li>Aggression_Aggressive</li>
 			<li>Beauty_VeryUgly</li>
 			<li>Body_Thin</li>
@@ -86,8 +86,8 @@
 		<factionlessGenerationWeight>0</factionlessGenerationWeight>
 		<inheritable>true</inheritable>
 		<genes>
-			<li MayRequire="neronix17.outland.genetics">Outland_GreaterGoblinoidHead</li>
-			<li MayRequire="neronix17.outland.genetics">Outland_Ears_Goblinoid</li>
+			<!--<li MayRequire="neronix17.outland.genetics">Outland_GreaterGoblinoidHead</li>-->
+			<!--<li MayRequire="neronix17.outland.genetics">Outland_Ears_Goblinoid</li>-->
 			<li>Aggression_Aggressive</li>
 			<li>CorePlus_AlwaysMale</li>
 			<li>Beauty_VeryUgly</li>
@@ -118,7 +118,7 @@
 		<iconPath>UI/Icons/Xenotypes/HighElf</iconPath>
 		<inheritable>true</inheritable>
 		<genes>
-			<li MayRequire="neronix17.outland.genetics">Outland_ElvenEars</li>
+			<!--<li MayRequire="jintuzilamian.gene.xenocosmetic">Outland_ElvenEars</li>-->
 			<li>Beard_NoBeardOnly</li>
 			<li>Body_Standard</li>
 			<li>Body_Thin</li>
