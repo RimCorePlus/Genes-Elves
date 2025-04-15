@@ -1,0 +1,9 @@
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>//XenotypeDef[defName="CorePlus_DarkElf" or defName="CorePlus_HighElf" or defName="CorePlus_WoodElf" or defName="CorePlus_Goblin" or defName="CorePlus_Hobgoblin"]/genes/li[text()="Ears_Pointed"]</xpath>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

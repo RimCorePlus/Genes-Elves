@@ -1,0 +1,10 @@
+<loadFolders>
+    <v1.5>
+        <li>/</li>
+        <li>1.5</li>
+        <li>Common</li>
+        <li IfModActive="jintuzilamian.gene.xenocosmetic">Mods/AFU Cosmetic Gene Expanded/1.5</li>
+        <li IfModActive="ceteam.combatextended">Mods/Combat Extended/1.5</li>
+        <li IfModActive="dankpyon.medieval.overhaul">Mods/Medieval Overhaul/1.5</li>
+    </v1.5>
+</loadFolders>
