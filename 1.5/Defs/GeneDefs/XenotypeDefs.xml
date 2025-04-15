@@ -9,20 +9,22 @@
 		<inheritable>true</inheritable>
 		<genes>
 			<li MayRequire="jintuzilamian.gene.xenocosmetic">AFU_HA_ElfEar</li>
+			<li MayRequire="oppey.eyegenes2">Eyes_DarkPurple</li>
+			<li MayRequire="oppey.eyegenes2">Eyes_LightPurple</li>
+			<li MayRequire="oppey.eyegenes2">Eyes_Purple</li>
 			<li>Beard_NoBeardOnly</li>
 			<li>Body_Standard</li>
 			<li>Body_Thin</li>
+			<li>CorePlus_ElvenAccuracy</li>
+			<li>CorePlus_SuperiorDarkVision</li>
 			<li>Delicate</li>
 			<li>Ears_Pointed</li>
-			<li MayRequire="oppey.eyegenes2">Eyes_DarkPurple</li>
 			<li>Hair_DarkBlack</li>
 			<li>Hair_InkBlack</li>
 			<li>Hair_SnowWhite</li>
 			<li>MinTemp_SmallDecrease</li>
 			<li>Skin_Blue</li>
 			<li>Skin_SlateGray</li>
-			<li>CorePlus_ElvenAccuracy</li>
-			<li>CorePlus_SuperiorDarkVision</li>
 		</genes>
 	</XenotypeDef>
 	<!--elf-->
@@ -38,6 +40,7 @@
 			<li>Beard_NoBeardOnly</li>
 			<li>Body_Standard</li>
 			<li>Body_Thin</li>
+			<li>CorePlus_ElvenAccuracy</li>
 			<li>Delicate</li>
 			<li>Ears_Pointed</li>
 			<li>Hair_Blonde</li>
@@ -45,7 +48,6 @@
 			<li>Hair_SnowWhite</li>
 			<li>PsychicAbility_Enhanced</li>
 			<li>Skin_Melanin2</li>
-			<li>CorePlus_ElvenAccuracy</li>
 		</genes>
 	</XenotypeDef>
 	<!--goblin-->
@@ -61,6 +63,7 @@
 			<li>Aggression_Aggressive</li>
 			<li>Beauty_VeryUgly</li>
 			<li>Body_Thin</li>
+			<li>CorePlus_RapidReproduction</li>
 			<li>Ears_Pointed</li>
 			<li>Hair_DarkBrown</li>
 			<li>Hair_DarkSaturatedReddish</li>
@@ -72,7 +75,6 @@
 			<li>Skin_Green</li>
 			<li>Superclotting</li>
 			<li>WoundHealing_Fast</li>
-			<li>CorePlus_RapidReproduction</li>
 		</genes>
 	</XenotypeDef>
 	<!--hobgoblin-->
@@ -89,6 +91,7 @@
 			<li>Aggression_Aggressive</li>
 			<li>Beauty_VeryUgly</li>
 			<li>Body_Hulk</li>
+			<li>CorePlus_RapidReproduction</li>
 			<li>Ears_Pointed</li>
 			<li>Hair_DarkBrown</li>
 			<li>Hair_DarkSaturatedReddish</li>
@@ -103,7 +106,6 @@
 			<li>Superclotting</li>
 			<li>Unstoppable</li>
 			<li>WoundHealing_SuperFast</li>
-			<li>CorePlus_RapidReproduction</li>
 		</genes>
 	</XenotypeDef>
 	<!--wood elf-->
@@ -119,6 +121,7 @@
 			<li>Beard_NoBeardOnly</li>
 			<li>Body_Standard</li>
 			<li>Body_Thin</li>
+			<li>CorePlus_ElvenAccuracy</li>
 			<li>Delicate</li>
 			<li>Ears_Pointed</li>
 			<li>Hair_BaldOnly</li>
@@ -129,7 +132,6 @@
 			<li>Immunity_Strong</li>
 			<li>Skin_PaleYellow</li>
 			<li>StrongStomach</li>
-			<li>CorePlus_ElvenAccuracy</li>
 		</genes>
 	</XenotypeDef>
 </Defs>
