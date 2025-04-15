@@ -9,7 +9,7 @@
 <!--![Supports Anomaly][badge-dlc-anomaly] supports Anomaly DLC-->
 [badge-dlc-anomaly]: https://img.shields.io/badge/DLC-Anomaly-darkseagreen
 
-# [Core+] Genes - Elves
+# [CorePlus] Genes - Elves
 ![](About/Preview.png)\
 [![GPLv3][badge-license]](https://www.gnu.org/licenses/gpl-3.0) ![Supports Biotech][badge-dlc-biotech]
 
@@ -27,7 +27,7 @@ Scope of this mod:
 ## Recommended Mods
 - [Vanilla Expanded Framework](https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013) is required
 - [Stuff Mass Matters](https://steamcommunity.com/sharedfiles/filedetails/?id=2787438435) to get the most out of elven steel's low weight
-- [\[Core+\] Industry - Metal](https://github.com/RimCorePlus/Industry-Metal) to add a production chain for elven steel
+- [\[CorePlus\] Industry - Metal](https://github.com/RimCorePlus/Industry-Metal) to add a production chain for elven steel
 
 ## Legal
 Portions of the materials used to create this mod are trademarks and/or copyrighted works of Ludeon Studios Inc. All rights reserved by Ludeon. This mod is not official and is not endorsed by Ludeon.
