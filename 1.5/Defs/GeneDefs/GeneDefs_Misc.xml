@@ -11,7 +11,7 @@
             <AimingAccuracy MayRequire="ceteam.combatextended">0.5</AimingAccuracy>
         </statOffsets>
         <statFactors>
-            <MeleeDamageFactor>0.75</MeleeDamageFactor>
+            <MeleeDamageFactor>0.8</MeleeDamageFactor>
         </statFactors>
         <biostatMet>-1</biostatMet>
         <exclusionTags>
