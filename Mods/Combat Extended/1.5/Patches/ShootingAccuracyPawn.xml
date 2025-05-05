@@ -1,15 +1,6 @@
 <Patch>
-    <Operation Class="PatchOperationFindMod">
-        <mods>
-            <li>Combat Extended</li>
-        </mods>
-        <match Class="PatchOperationSequence">
-            <operations>
-                <!--remove vanilla accuracy since we have combat extended accuracy-->
-                <li Class="PatchOperationRemove">
-                    <xpath>//GeneDef[defName="CorePlus_ElvenAccuracy"]/statOffsets/ShootingAccuracyPawn</xpath>
-                </li>
-            </operations>
-        </match>
+    <!--remove vanilla accuracy since we have combat extended accuracy-->
+    <Operation Class="PatchOperationRemove">
+        <xpath>//GeneDef[defName="CorePlus_ElvenAccuracy"]/statOffsets/ShootingAccuracyPawn</xpath>
     </Operation>
 </Patch>
