@@ -1,6 +1,6 @@
 <Defs>
     <FactionDef ParentName="PlayerFactionBase">
-        <defName>PlayerElves</defName>
+        <defName>CorePlus_PlayerElves</defName>
         <label>Elf Settlement</label>
         <description>A colony of recently-arrived off-worlders.</description>
         <isPlayer>true</isPlayer>
