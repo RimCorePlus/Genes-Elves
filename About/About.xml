@@ -2,14 +2,10 @@
 	<packageId>coreplus.genes.elves</packageId>
 	<name>[CorePlus] Genes - Elves</name>
 	<author>boomer</author>
-	<description />
 	<supportedVersions>
 		<li>1.5</li>
 	</supportedVersions>
-	<modVersion />
-	<modIconPath IgnoreIfNoMatchingField="True" />
 	<url>https://github.com/RimCorePlus/Genes-Elves</url>
-	<descriptionsByVersion />
 	<modDependencies>
 		<li>
 			<packageId>Ludeon.RimWorld.Biotech</packageId>
@@ -21,10 +17,6 @@
 			<downloadUrl>https://github.com/RimCorePlus/Genes-Genes</downloadUrl>
 		</li>
 	</modDependencies>
-	<modDependenciesByVersion />
-	<loadBefore />
-	<loadBeforeByVersion />
-	<forceLoadBefore />
 	<loadAfter>
 		<li>boomer.debloat</li>
 		<li>ceteam.combatextended</li>
@@ -35,8 +27,4 @@
 		<li>ludeon.rimworld.biotech</li>
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
 	</loadAfter>
-	<loadAfterByVersion />
-	<forceLoadAfter />
-	<incompatibleWith />
-	<incompatibleWithByVersion />
 </ModMetaData>
