@@ -11,11 +11,6 @@
 			<packageId>Ludeon.RimWorld.Biotech</packageId>
 			<displayName>Biotech</displayName>
 		</li>
-		<li>
-			<packageId>coreplus.genes</packageId>
-			<displayName>gene expansion</displayName>
-			<downloadUrl>https://github.com/RimCorePlus/Genes-Genes</downloadUrl>
-		</li>
 	</modDependencies>
 	<loadAfter>
 		<li>boomer.debloat</li>
