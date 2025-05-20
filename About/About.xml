@@ -9,6 +9,7 @@
 	<modVersion />
 	<modIconPath IgnoreIfNoMatchingField="True" />
 	<url>https://github.com/RimCorePlus/Genes-Elves</url>
+	<descriptionsByVersion />
 	<modDependencies>
 		<li>
 			<packageId>Ludeon.RimWorld.Biotech</packageId>
@@ -20,16 +21,22 @@
 			<downloadUrl>https://github.com/RimCorePlus/Genes-Genes</downloadUrl>
 		</li>
 	</modDependencies>
+	<modDependenciesByVersion />
 	<loadBefore />
+	<loadBeforeByVersion />
+	<forceLoadBefore />
 	<loadAfter>
 		<li>boomer.debloat</li>
 		<li>ceteam.combatextended</li>
 		<li>coreplus.genes</li>
-		<li>coreplus.rebalance</li>
+		<li>boomer.rebalance</li>
 		<li>dankpyon.medieval.overhaul</li>
 		<li>jintuzilamian.gene.xenocosmetic</li>
 		<li>ludeon.rimworld.biotech</li>
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
 	</loadAfter>
+	<loadAfterByVersion />
+	<forceLoadAfter />
 	<incompatibleWith />
+	<incompatibleWithByVersion />
 </ModMetaData>
