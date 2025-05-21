@@ -13,7 +13,6 @@
 		</li>
 	</modDependencies>
 	<loadAfter>
-		<li>boomer.debloat</li>
 		<li>ceteam.combatextended</li>
 		<li>coreplus.genes</li>
 		<li>boomer.rebalance</li>
