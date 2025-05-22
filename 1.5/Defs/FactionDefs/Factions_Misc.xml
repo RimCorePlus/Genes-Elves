@@ -10,6 +10,8 @@
 		<techLevel>Industrial</techLevel>
 		<description>Despite being mortal enemies on Faerie, some of the elves on this world have joined forces to build a society away from humans. They are concerned with securing the existence of their people and a future for elven children.</description>
 		<factionIconPath>World/WorldObjects/Expanding/CorePlus_ElfSyndicate</factionIconPath>
+		<factionNameMaker>CorePlus_NamerFactionElf</factionNameMaker>
+		<!--<settlementNameMaker>CorePlus_NamerSettlementElf</settlementNameMaker>-->
 		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
 		<configurationListOrderPriority>20</configurationListOrderPriority>
 		<settlementGenerationWeight>1</settlementGenerationWeight>
@@ -55,7 +57,7 @@
 		<techLevel>Neolithic</techLevel>
 		<description>A large coalition of goblins who've agreed to fight outsiders instead of each other. They are mostly nomadic and enrich themselves by raiding and robbing their more productive neighbors.</description>
 		<factionIconPath>World/WorldObjects/Expanding/CorePlus_GoblinHorde</factionIconPath>
-		<factionNameMaker>NamerFactionTribalNeanderthal</factionNameMaker>
+		<factionNameMaker>CorePlus_NamerFactionGoblin</factionNameMaker>
 		<settlementNameMaker>NamerSettlementTribalNeaderthal</settlementNameMaker>
 		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
 		<configurationListOrderPriority>40</configurationListOrderPriority>

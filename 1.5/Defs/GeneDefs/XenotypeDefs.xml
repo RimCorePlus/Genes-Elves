@@ -6,6 +6,7 @@
 		<description>Also known as dark elves, this dark-skinned sub-race of elves lived on a small habitable moon. Their evolution in the overdark, the dark side of the moon, granted them exceptional vision in the dark and a preference for cold climates.</description>
 		<descriptionShort>An evolved humanoid from the dark side of Faeldarin, a habitable moon in the outer rim.</descriptionShort>
 		<iconPath>UI/Icons/Xenotypes/HighElf</iconPath>
+		<nameMaker>CorePlus_NamerPersonElf</nameMaker>
 		<inheritable>true</inheritable>
 		<genes>
 			<li MayRequire="jintuzilamian.gene.xenocosmetic">AFU_HA_ElfEar</li>
@@ -33,6 +34,7 @@
 		<description>An evolved humanoid from a habitable moon in the outer rim. Free from most predators and held together by a utopian society, elves have little experience in combat and bruise easily. They make exceptionally talented psycasters.</description>
 		<descriptionShort>An evolved humanoid from Faeldarin, a habitable moon in the outer rim.</descriptionShort>
 		<iconPath>UI/Icons/Xenotypes/HighElf</iconPath>
+		<nameMaker>CorePlus_NamerPersonElf</nameMaker>
 		<inheritable>true</inheritable>
 		<genes>
 			<li MayRequire="jintuzilamian.gene.xenocosmetic">AFU_HA_ElfEar</li>
@@ -113,6 +115,7 @@
 		<description>An evolved humanoid from a habitable moon in the outer rim. Wood elves rejected elven society to embrace a nomadic lifestyle.</description>
 		<descriptionShort>A nomadic elf from Faeldarin, a habitable moon in the outer rim.</descriptionShort>
 		<iconPath>UI/Icons/Xenotypes/HighElf</iconPath>
+		<nameMaker>CorePlus_NamerPersonElf</nameMaker>
 		<inheritable>true</inheritable>
 		<genes>
 			<li MayRequire="jintuzilamian.gene.xenocosmetic">AFU_HA_ElfEar</li>

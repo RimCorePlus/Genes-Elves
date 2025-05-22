@@ -1,0 +1,45 @@
+<Defs>
+    <RulePackDef>
+        <defName>CorePlus_NamerElf</defName>
+        <rulePack>
+            <rulesFiles>
+                <li>EndElf->WordParts/End_Elf</li>
+                <li>SylElf->WordParts/Syllables_Elf</li>
+                <li>nicknameElf->Names/Nick_Unisex_Elf</li>
+            </rulesFiles>
+        </rulePack>
+    </RulePackDef>
+    <RulePackDef>
+        <defName>CorePlus_NamerPersonElf</defName>
+        <include>
+            <li>CorePlus_NamerElf</li>
+        </include>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name->[firstName] [lastName]</li>
+                <li>r_name->[firstName] '[nicknameElf]' [lastName]</li>
+                <li>firstName->[SylElf][SylElf]</li>
+                <li>firstName->[SylElf]</li>
+                <li>lastName->[SylElf][EndElf]</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+    <RulePackDef>
+        <defName>CorePlus_NamerFactionElf</defName>
+        <include>
+            <li>CorePlus_NamerElf</li>
+        </include>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name->[SylElf][SylElf][EndElf]</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+    <!--WIP <RulePackDef>
+        <defName>CorePlus_NamerSettlementElf</defName>
+        <rulePack>
+            <rulesStrings>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>-->
+</Defs>

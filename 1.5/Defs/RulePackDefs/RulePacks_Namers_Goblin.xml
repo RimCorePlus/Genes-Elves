@@ -1,0 +1,45 @@
+<Defs>
+    <RulePackDef>
+        <defName>CorePlus_NamerGoblin</defName>
+        <rulePack>
+            <rulesFiles>
+                <li>EndGoblin->WordParts/End_Goblin</li>
+                <li>SylGoblin->WordParts/Syllables_Goblin</li>
+                <li>nicknameGoblin->Names/Nick_Unisex_Goblin</li>
+            </rulesFiles>
+        </rulePack>
+    </RulePackDef>
+    <RulePackDef>
+        <defName>CorePlus_NamerPersonGoblin</defName>
+        <include>
+            <li>CorePlus_NamerGoblin</li>
+        </include>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name->[firstName] [lastName]</li>
+                <li>r_name->[firstName] '[nicknameGoblin]' [lastName]</li>
+                <li>firstName->[SylGoblin][SylGoblin]</li>
+                <li>firstName->[SylGoblin]</li>
+                <li>lastName->[SylGoblin][EndGoblin]</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+    <RulePackDef>
+        <defName>CorePlus_NamerFactionGoblin</defName>
+        <include>
+            <li>CorePlus_NamerGoblin</li>
+        </include>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name->[SylGoblin][SylGoblin][EndGoblin]</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+    <!--WIP <RulePackDef>
+        <defName>CorePlus_NamerSettlementGoblin</defName>
+        <rulePack>
+            <rulesStrings>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>-->
+</Defs>
