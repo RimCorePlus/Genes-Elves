@@ -1,12 +1,12 @@
 <Defs>
 	<!--drow-->
 	<XenotypeDef>
-		<defName>CorePlus_DarkElf</defName>
+		<defName>RCP_DarkElf</defName>
 		<label>Drow</label>
 		<description>Also known as dark elves, this dark-skinned sub-race of elves lived on a small habitable moon. Their evolution in the overdark, the dark side of the moon, granted them exceptional vision in the dark and a preference for cold climates.</description>
 		<descriptionShort>An evolved humanoid from the dark side of Faeldarin, a habitable moon in the outer rim.</descriptionShort>
 		<iconPath>UI/Icons/Xenotypes/HighElf</iconPath>
-		<nameMaker>CorePlus_NamerPersonElf</nameMaker>
+		<nameMaker>RCP_NamerPersonElf</nameMaker>
 		<inheritable>true</inheritable>
 		<genes>
 			<li MayRequire="jintuzilamian.gene.xenocosmetic">AFU_HA_ElfEar</li>
@@ -15,8 +15,8 @@
 			<li MayRequire="oppey.eyegenes2">Eyes_Purple</li>
 			<li>Beard_NoBeardOnly</li>
 			<li>Body_Standard</li>
-			<li>CorePlus_ElvenAccuracy</li>
-			<li>CorePlus_SuperiorDarkVision</li>
+			<li>RCP_ElvenAccuracy</li>
+			<li>RCP_SuperiorDarkVision</li>
 			<li>Delicate</li>
 			<li>Ears_Pointed</li>
 			<li>Hair_DarkBlack</li>
@@ -29,18 +29,18 @@
 	</XenotypeDef>
 	<!--elf-->
 	<XenotypeDef>
-		<defName>CorePlus_HighElf</defName>
+		<defName>RCP_HighElf</defName>
 		<label>Elf</label>
 		<description>An evolved humanoid from a habitable moon in the outer rim. Free from most predators and held together by a utopian society, elves have little experience in combat and bruise easily. They make exceptionally talented psycasters.</description>
 		<descriptionShort>An evolved humanoid from Faeldarin, a habitable moon in the outer rim.</descriptionShort>
 		<iconPath>UI/Icons/Xenotypes/HighElf</iconPath>
-		<nameMaker>CorePlus_NamerPersonElf</nameMaker>
+		<nameMaker>RCP_NamerPersonElf</nameMaker>
 		<inheritable>true</inheritable>
 		<genes>
 			<li MayRequire="jintuzilamian.gene.xenocosmetic">AFU_HA_ElfEar</li>
 			<li>Beard_NoBeardOnly</li>
 			<li>Body_Standard</li>
-			<li>CorePlus_ElvenAccuracy</li>
+			<li>RCP_ElvenAccuracy</li>
 			<li>Delicate</li>
 			<li>Ears_Pointed</li>
 			<li>Hair_Blonde</li>
@@ -52,7 +52,7 @@
 	</XenotypeDef>
 	<!--goblin-->
 	<XenotypeDef>
-		<defName>CorePlus_Goblin</defName>
+		<defName>RCP_Goblin</defName>
 		<label>Goblin</label>
 		<description>A small, menacing cousin of the elves known for their green skin and dimwitted antics. Raised in the swamps and caverns of Faerie, these small humanoids were used as canon fodder by their Hobgoblin overlords. They multiply quickly and are surprisingly difficult to kill, but they don't live very long.</description>
 		<descriptionShort>A small, menacing cousin of the elves known for their green skin and dimwitted antics.</descriptionShort>
@@ -63,7 +63,7 @@
 			<li>Aggression_Aggressive</li>
 			<li>Beauty_VeryUgly</li>
 			<li>Body_Thin</li>
-			<li>CorePlus_RapidReproduction</li>
+			<li>RCP_RapidReproduction</li>
 			<li>Ears_Pointed</li>
 			<li>Hair_DarkBrown</li>
 			<li>Hair_DarkSaturatedReddish</li>
@@ -79,7 +79,7 @@
 	</XenotypeDef>
 	<!--hobgoblin-->
 	<XenotypeDef>
-		<defName>CorePlus_Hobgoblin</defName>
+		<defName>RCP_Hobgoblin</defName>
 		<label>hobgoblin</label>
 		<description>A massive, red-skinned goblin. Towering over their lesser kin, hobgoblins possess unparalleled melee prowess, brutal strength, and a violent temperament. Their presence is enough to turn the tide of battle, as few can withstand their relentless assault.</description>
 		<descriptionShort>A massive, red-skinned goblin. Their presence is enough to turn the tide of battle.</descriptionShort>
@@ -91,7 +91,7 @@
 			<li>Aggression_Aggressive</li>
 			<li>Beauty_VeryUgly</li>
 			<li>Body_Hulk</li>
-			<li>CorePlus_RapidReproduction</li>
+			<li>RCP_RapidReproduction</li>
 			<li>Ears_Pointed</li>
 			<li>Hair_DarkBrown</li>
 			<li>Hair_DarkSaturatedReddish</li>
@@ -110,18 +110,18 @@
 	</XenotypeDef>
 	<!--wood elf-->
 	<XenotypeDef>
-		<defName>CorePlus_WoodElf</defName>
+		<defName>RCP_WoodElf</defName>
 		<label>wood elf</label>
 		<description>An evolved humanoid from a habitable moon in the outer rim. Wood elves rejected elven society to embrace a nomadic lifestyle.</description>
 		<descriptionShort>A nomadic elf from Faeldarin, a habitable moon in the outer rim.</descriptionShort>
 		<iconPath>UI/Icons/Xenotypes/HighElf</iconPath>
-		<nameMaker>CorePlus_NamerPersonElf</nameMaker>
+		<nameMaker>RCP_NamerPersonElf</nameMaker>
 		<inheritable>true</inheritable>
 		<genes>
 			<li MayRequire="jintuzilamian.gene.xenocosmetic">AFU_HA_ElfEar</li>
 			<li>Beard_NoBeardOnly</li>
 			<li>Body_Standard</li>
-			<li>CorePlus_ElvenAccuracy</li>
+			<li>RCP_ElvenAccuracy</li>
 			<li>Delicate</li>
 			<li>Ears_Pointed</li>
 			<li>Hair_DarkBlack</li>

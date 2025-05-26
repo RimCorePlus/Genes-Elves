@@ -22,29 +22,29 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>//XenotypeDef[defName="Sanguophage"]/doubleXenotypeChances</xpath>
 		<value>
-			<CorePlus_DarkElf>0.02</CorePlus_DarkElf>
-			<CorePlus_HighElf>0.02</CorePlus_HighElf>
-			<CorePlus_Hobgoblin>0.02</CorePlus_Hobgoblin>
-			<CorePlus_WoodElf>0.02</CorePlus_WoodElf>
+			<RCP_DarkElf>0.02</RCP_DarkElf>
+			<RCP_HighElf>0.02</RCP_HighElf>
+			<RCP_Hobgoblin>0.02</RCP_Hobgoblin>
+			<RCP_WoodElf>0.02</RCP_WoodElf>
 		</value>
 	</Operation>
 	<!--add xenos to vanilla factions-->
 	<Operation Class="PatchOperationAdd">
 		<xpath>//FactionDef[@Name="OutlanderFactionBase"]/xenotypeSet/xenotypeChances</xpath>
 		<value>
-			<CorePlus_HighElf>0.05</CorePlus_HighElf>
+			<RCP_HighElf>0.05</RCP_HighElf>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>//FactionDef[@Name="PirateBandBase"]/xenotypeSet/xenotypeChances</xpath>
 		<value>
-			<CorePlus_DarkElf>0.05</CorePlus_DarkElf>
+			<RCP_DarkElf>0.05</RCP_DarkElf>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>//FactionDef[@Name="TribeBase"]/xenotypeSet/xenotypeChances</xpath>
 		<value>
-			<CorePlus_WoodElf>0.05</CorePlus_WoodElf>
+			<RCP_WoodElf>0.05</RCP_WoodElf>
 		</value>
 	</Operation>
 </Patch>

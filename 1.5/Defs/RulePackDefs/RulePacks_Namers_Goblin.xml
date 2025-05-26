@@ -1,6 +1,6 @@
 <Defs>
     <RulePackDef>
-        <defName>CorePlus_NamerGoblin</defName>
+        <defName>RCP_NamerGoblin</defName>
         <rulePack>
             <rulesFiles>
                 <li>EndGoblin->WordParts/End_Goblin</li>
@@ -10,9 +10,9 @@
         </rulePack>
     </RulePackDef>
     <RulePackDef>
-        <defName>CorePlus_NamerPersonGoblin</defName>
+        <defName>RCP_NamerPersonGoblin</defName>
         <include>
-            <li>CorePlus_NamerGoblin</li>
+            <li>RCP_NamerGoblin</li>
         </include>
         <rulePack>
             <rulesStrings>
@@ -25,9 +25,9 @@
         </rulePack>
     </RulePackDef>
     <RulePackDef>
-        <defName>CorePlus_NamerFactionGoblin</defName>
+        <defName>RCP_NamerFactionGoblin</defName>
         <include>
-            <li>CorePlus_NamerGoblin</li>
+            <li>RCP_NamerGoblin</li>
         </include>
         <rulePack>
             <rulesStrings>
@@ -36,7 +36,7 @@
         </rulePack>
     </RulePackDef>
     <!--WIP <RulePackDef>
-        <defName>CorePlus_NamerSettlementGoblin</defName>
+        <defName>RCP_NamerSettlementGoblin</defName>
         <rulePack>
             <rulesStrings>
             </rulesStrings>

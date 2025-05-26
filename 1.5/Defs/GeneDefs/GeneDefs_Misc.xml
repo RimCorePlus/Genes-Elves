@@ -1,6 +1,6 @@
 <Defs>
     <GeneDef>
-        <defName>CorePlus_ElvenAccuracy</defName>
+        <defName>RCP_ElvenAccuracy</defName>
         <label>elven accuracy</label>
         <iconPath>UI/Icons/Genes/Gene_ElvenAccuracy</iconPath>
         <description>Carriers of this gene have uncanny aim with attacks that rely on precision rather than brute force.</description>
@@ -43,7 +43,7 @@
         </symbolPack>
     </GeneDef>
     <GeneDef>
-        <defName>CorePlus_SuperiorDarkVision</defName>
+        <defName>RCP_SuperiorDarkVision</defName>
         <label>superior dark vision</label>
         <description>Carriers of this gene see perfectly in the dark and are unaffected by mood penalties related to darkness.</description>
         <iconPath>UI/Icons/Genes/Gene_SuperiorDarkvision</iconPath>
@@ -91,7 +91,7 @@
         </symbolPack>
     </GeneDef>
     <GeneDef ParentName="FertilityBase">
-        <defName>CorePlus_RapidReproduction</defName>
+        <defName>RCP_RapidReproduction</defName>
         <label>rapid reproduction</label>
         <description>Carriers of this gene have a have a short lifespan but reproduce much faster than baseline humans.</description>
         <iconPath>UI/Icons/Genes/Gene_Fertile</iconPath>

@@ -1,7 +1,7 @@
 <Defs>
 	<!--Elf Syndicate-->
 	<FactionDef ParentName="OutlanderFactionBase">
-		<defName>CorePlus_ElfSyndicate</defName>
+		<defName>RCP_ElfSyndicate</defName>
 		<label>elf syndicate</label>
 		<pawnSingular>elf</pawnSingular>
 		<pawnsPlural>elves</pawnsPlural>
@@ -9,9 +9,9 @@
 		<categoryTag>Outlander</categoryTag>
 		<techLevel>Industrial</techLevel>
 		<description>Despite being mortal enemies on Faerie, some of the elves on this world have joined forces to build a society away from humans. They are concerned with securing the existence of their people and a future for elven children.</description>
-		<factionIconPath>World/WorldObjects/Expanding/CorePlus_ElfSyndicate</factionIconPath>
-		<factionNameMaker>CorePlus_NamerFactionElf</factionNameMaker>
-		<!--<settlementNameMaker>CorePlus_NamerSettlementElf</settlementNameMaker>-->
+		<factionIconPath>World/WorldObjects/Expanding/RCP_ElfSyndicate</factionIconPath>
+		<factionNameMaker>RCP_NamerFactionElf</factionNameMaker>
+		<!--<settlementNameMaker>RCP_NamerSettlementElf</settlementNameMaker>-->
 		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
 		<configurationListOrderPriority>20</configurationListOrderPriority>
 		<settlementGenerationWeight>1</settlementGenerationWeight>
@@ -40,15 +40,15 @@
 		</allowedCultures>
 		<xenotypeSet Inherit="False">
 			<xenotypeChances>
-				<CorePlus_DarkElf>0.15</CorePlus_DarkElf>
-				<CorePlus_HighElf>0.5</CorePlus_HighElf>
-				<CorePlus_WoodElf>0.35</CorePlus_WoodElf>
+				<RCP_DarkElf>0.15</RCP_DarkElf>
+				<RCP_HighElf>0.5</RCP_HighElf>
+				<RCP_WoodElf>0.35</RCP_WoodElf>
 			</xenotypeChances>
 		</xenotypeSet>
 	</FactionDef>
 	<!--Goblin Horde-->
 	<FactionDef ParentName="TribeBase">
-		<defName>CorePlus_GoblinHorde</defName>
+		<defName>RCP_GoblinHorde</defName>
 		<label>goblin horde</label>
 		<pawnSingular>goblin</pawnSingular>
 		<pawnsPlural>goblins</pawnsPlural>
@@ -56,8 +56,8 @@
 		<categoryTag>Outlander</categoryTag>
 		<techLevel>Neolithic</techLevel>
 		<description>A large coalition of goblins who've agreed to fight outsiders instead of each other. They are mostly nomadic and enrich themselves by raiding and robbing their more productive neighbors.</description>
-		<factionIconPath>World/WorldObjects/Expanding/CorePlus_GoblinHorde</factionIconPath>
-		<factionNameMaker>CorePlus_NamerFactionGoblin</factionNameMaker>
+		<factionIconPath>World/WorldObjects/Expanding/RCP_GoblinHorde</factionIconPath>
+		<factionNameMaker>RCP_NamerFactionGoblin</factionNameMaker>
 		<settlementNameMaker>NamerSettlementTribalNeaderthal</settlementNameMaker>
 		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
 		<configurationListOrderPriority>40</configurationListOrderPriority>
@@ -92,8 +92,8 @@
 		</allowedCultures>
 		<xenotypeSet Inherit="False">
 			<xenotypeChances>
-				<CorePlus_Goblin>99</CorePlus_Goblin>
-				<CorePlus_Hobgoblin>1</CorePlus_Hobgoblin>
+				<RCP_Goblin>99</RCP_Goblin>
+				<RCP_Hobgoblin>1</RCP_Hobgoblin>
 			</xenotypeChances>
 		</xenotypeSet>
 		<minSettlementTemperatureChanceCurve>

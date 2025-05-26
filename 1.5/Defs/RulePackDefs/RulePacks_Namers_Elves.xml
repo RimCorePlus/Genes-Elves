@@ -1,6 +1,6 @@
 <Defs>
     <RulePackDef>
-        <defName>CorePlus_NamerElf</defName>
+        <defName>RCP_NamerElf</defName>
         <rulePack>
             <rulesFiles>
                 <li>EndElf->WordParts/End_Elf</li>
@@ -10,9 +10,9 @@
         </rulePack>
     </RulePackDef>
     <RulePackDef>
-        <defName>CorePlus_NamerPersonElf</defName>
+        <defName>RCP_NamerPersonElf</defName>
         <include>
-            <li>CorePlus_NamerElf</li>
+            <li>RCP_NamerElf</li>
         </include>
         <rulePack>
             <rulesStrings>
@@ -25,9 +25,9 @@
         </rulePack>
     </RulePackDef>
     <RulePackDef>
-        <defName>CorePlus_NamerFactionElf</defName>
+        <defName>RCP_NamerFactionElf</defName>
         <include>
-            <li>CorePlus_NamerElf</li>
+            <li>RCP_NamerElf</li>
         </include>
         <rulePack>
             <rulesStrings>
@@ -36,7 +36,7 @@
         </rulePack>
     </RulePackDef>
     <!--WIP <RulePackDef>
-        <defName>CorePlus_NamerSettlementElf</defName>
+        <defName>RCP_NamerSettlementElf</defName>
         <rulePack>
             <rulesStrings>
             </rulesStrings>

@@ -1,6 +1,6 @@
 <Patch>
     <!--remove vanilla accuracy since we have combat extended accuracy-->
     <Operation Class="PatchOperationRemove">
-        <xpath>//GeneDef[defName="CorePlus_ElvenAccuracy"]/statOffsets/ShootingAccuracyPawn</xpath>
+        <xpath>//GeneDef[defName="RCP_ElvenAccuracy"]/statOffsets/ShootingAccuracyPawn</xpath>
     </Operation>
 </Patch>

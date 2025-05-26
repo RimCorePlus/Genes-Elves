@@ -1,6 +1,6 @@
 <Defs>
     <FactionDef ParentName="PlayerFactionBase">
-        <defName>CorePlus_PlayerElves</defName>
+        <defName>RCP_PlayerElves</defName>
         <label>Elf Settlement</label>
         <description>A colony of recently-arrived off-worlders.</description>
         <isPlayer>true</isPlayer>
@@ -20,7 +20,7 @@
                 </categories>
             </li>
         </backstoryFilters>
-        <factionIconPath>World/WorldObjects/Expanding/CorePlus_ElfSyndicate</factionIconPath>
+        <factionIconPath>World/WorldObjects/Expanding/RCP_ElfSyndicate</factionIconPath>
         <!--<startingResearchTags>
             <li>ElvenStart</li>
         </startingResearchTags>

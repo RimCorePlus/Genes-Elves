@@ -2,8 +2,8 @@
     <Operation Class="PatchOperationAdd">
         <xpath>//FactionDef[starts-with(defName, "DankPyon_NobleHouse")]/xenotypeSet/xenotypeChances</xpath>
         <value>
-            <CorePlus_DarkElf>0.025</CorePlus_DarkElf>
-            <CorePlus_HighElf>0.05</CorePlus_HighElf>
+            <RCP_DarkElf>0.025</RCP_DarkElf>
+            <RCP_HighElf>0.05</RCP_HighElf>
         </value>
     </Operation>
 </Patch>
