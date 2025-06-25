@@ -1,0 +1,115 @@
+<Defs>
+    <GeneDef>
+        <defName>RCP_ElvenAccuracy</defName>
+        <label>elven accuracy</label>
+        <iconPath>UI/Icons/Genes/Gene_ElvenAccuracy</iconPath>
+        <description>Carriers of this gene have uncanny aim with attacks that rely on precision rather than brute force.</description>
+        <displayCategory>Violence</displayCategory>
+        <displayOrderInCategory>999</displayOrderInCategory>
+        <statOffsets>
+            <ShootingAccuracyPawn>0.5</ShootingAccuracyPawn>
+            <AimingAccuracy MayRequire="ceteam.combatextended">0.5</AimingAccuracy>
+        </statOffsets>
+        <statFactors>
+            <MeleeDamageFactor>0.8</MeleeDamageFactor>
+        </statFactors>
+        <biostatMet>-1</biostatMet>
+        <exclusionTags>
+            <li>ShootingAccuracy</li>
+        </exclusionTags>
+        <symbolPack>
+            <prefixSymbols>
+                <li>
+                    <symbol>sharp</symbol>
+                </li>
+                <li>
+                    <symbol>quick</symbol>
+                </li>
+                <li>
+                    <symbol>shot</symbol>
+                </li>
+            </prefixSymbols>
+            <suffixSymbols>
+                <li>
+                    <symbol>sighter</symbol>
+                </li>
+                <li>
+                    <symbol>peeker</symbol>
+                </li>
+                <li>
+                    <symbol>shooter</symbol>
+                </li>
+            </suffixSymbols>
+        </symbolPack>
+    </GeneDef>
+    <GeneDef>
+        <defName>RCP_SuperiorDarkVision</defName>
+        <label>superior dark vision</label>
+        <description>Carriers of this gene see perfectly in the dark and are unaffected by mood penalties related to darkness.</description>
+        <iconPath>UI/Icons/Genes/Gene_SuperiorDarkvision</iconPath>
+        <ignoreDarkness>true</ignoreDarkness>
+        <displayCategory>Miscellaneous</displayCategory>
+        <displayOrderInCategory>61</displayOrderInCategory>
+        <statOffsets>
+            <NightVisionEfficiency MayRequire="ceteam.combatextended">1</NightVisionEfficiency>
+        </statOffsets>
+        <forcedTraits>
+            <li>
+                <def>NightOwl</def>
+            </li>
+        </forcedTraits>
+        <biostatMet>-1</biostatMet>
+        <symbolPack>
+            <prefixSymbols>
+                <li>
+                    <symbol>dark</symbol>
+                </li>
+                <li>
+                    <symbol>night</symbol>
+                </li>
+                <li>
+                    <symbol>dim</symbol>
+                </li>
+                <li>
+                    <symbol>gloom</symbol>
+                </li>
+                <li>
+                    <symbol>murk</symbol>
+                </li>
+                <li>
+                    <symbol>deep</symbol>
+                </li>
+                <li>
+                    <symbol>umbra</symbol>
+                </li>
+            </prefixSymbols>
+            <suffixSymbols>
+                <li>
+                    <symbol>shadow</symbol>
+                </li>
+            </suffixSymbols>
+        </symbolPack>
+    </GeneDef>
+    <GeneDef ParentName="FertilityBase">
+        <defName>RCP_RapidReproduction</defName>
+        <label>rapid reproduction</label>
+        <description>Carriers of this gene have a have a short lifespan but reproduce much faster than baseline humans.</description>
+        <iconPath>UI/Icons/Genes/Gene_Fertile</iconPath>
+        <displayOrderInCategory>999</displayOrderInCategory>
+        <customEffectDescriptions>
+            <li>Pregnancy duration is halved.</li>
+            <li>Significantly increases the chance of lovin'.</li>
+        </customEffectDescriptions>
+        <statFactors>
+            <Fertility>4</Fertility>
+            <LifespanFactor>0.5</LifespanFactor>
+        </statFactors>
+        <lovinMTBFactor>0.25</lovinMTBFactor>
+        <modExtensions>
+            <li Class="VEF.Genes.GeneExtension">
+                <pregnancySpeedFactor>0.5</pregnancySpeedFactor>
+            </li>
+        </modExtensions>
+        <biostatMet>3</biostatMet>
+    </GeneDef>
+</Defs>

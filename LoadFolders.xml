@@ -8,4 +8,11 @@
         <li IfModActive="ceteam.combatextended">Mods/Combat Extended/1.5</li>
         <li IfModActive="dankpyon.medieval.overhaul">Mods/Medieval Overhaul/1.5</li>
     </v1.5>
+    <v1.6>
+        <li>/</li>
+        <li>1.6</li>
+        <li>Common</li>
+        <li IfModActive="ludeon.rimworld.royalty">DLC/Royalty/1.6</li>
+        <li IfModActive="jintuzilamian.gene.xenocosmetic">Mods/AFU Cosmetic Gene Expanded/1.6</li>
+    </v1.6>
 </loadFolders>
