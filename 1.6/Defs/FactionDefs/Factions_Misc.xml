@@ -105,14 +105,5 @@
 				<li>(24,1.0)</li>
 			</points>
 		</minSettlementTemperatureChanceCurve>
-		<modExtensions>
-			<li Class="VEF.Factions.FactionDefExtension">
-				<allowedBiomes>
-					<li>ColdBog</li>
-					<li>TemperateSwamp</li>
-					<li>TropicalSwamp</li>
-				</allowedBiomes>
-			</li>
-		</modExtensions>
 	</FactionDef>
 </Defs>

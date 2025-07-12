@@ -105,11 +105,6 @@
             <LifespanFactor>0.5</LifespanFactor>
         </statFactors>
         <lovinMTBFactor>0.25</lovinMTBFactor>
-        <modExtensions>
-            <li Class="VEF.Genes.GeneExtension">
-                <pregnancySpeedFactor>0.5</pregnancySpeedFactor>
-            </li>
-        </modExtensions>
         <biostatMet>3</biostatMet>
     </GeneDef>
 </Defs>
