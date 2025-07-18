@@ -17,30 +17,6 @@
         <exclusionTags>
             <li>ShootingAccuracy</li>
         </exclusionTags>
-        <symbolPack>
-            <prefixSymbols>
-                <li>
-                    <symbol>sharp</symbol>
-                </li>
-                <li>
-                    <symbol>quick</symbol>
-                </li>
-                <li>
-                    <symbol>shot</symbol>
-                </li>
-            </prefixSymbols>
-            <suffixSymbols>
-                <li>
-                    <symbol>sighter</symbol>
-                </li>
-                <li>
-                    <symbol>peeker</symbol>
-                </li>
-                <li>
-                    <symbol>shooter</symbol>
-                </li>
-            </suffixSymbols>
-        </symbolPack>
     </GeneDef>
     <GeneDef>
         <defName>RCP_SuperiorDarkVision</defName>
@@ -104,7 +80,7 @@
             <Fertility>4</Fertility>
             <LifespanFactor>0.5</LifespanFactor>
         </statFactors>
-        <lovinMTBFactor>0.25</lovinMTBFactor>
+        <lovinMTBFactor>0.5</lovinMTBFactor>
         <biostatMet>3</biostatMet>
     </GeneDef>
 </Defs>
