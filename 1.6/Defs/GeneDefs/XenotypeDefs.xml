@@ -16,14 +16,14 @@
 			<li MayRequire="oppey.eyegenes2">Eyes_Purple</li>
 			<li>Beard_NoBeardOnly</li>
 			<li>Body_Standard</li>
-			<li>RCP_ElvenAccuracy</li>
-			<li>RCP_SuperiorDarkVision</li>
 			<li>Delicate</li>
 			<li>Ears_Pointed</li>
 			<li>Hair_DarkBlack</li>
 			<li>Hair_InkBlack</li>
 			<li>Hair_SnowWhite</li>
 			<li>MinTemp_SmallDecrease</li>
+			<li>RCP_ElvenAccuracy</li>
+			<li>RCP_SuperiorDarkVision</li>
 			<li>Skin_Blue</li>
 			<li>Skin_SlateGray</li>
 		</genes>
@@ -42,13 +42,13 @@
 			<li MayRequire="jintuzilamian.gene.xenocosmetic">AFU_HA_ElfEar</li>
 			<li>Beard_NoBeardOnly</li>
 			<li>Body_Standard</li>
-			<li>RCP_ElvenAccuracy</li>
 			<li>Delicate</li>
 			<li>Ears_Pointed</li>
 			<li>Hair_Blonde</li>
 			<li>Hair_SandyBlonde</li>
 			<li>Hair_SnowWhite</li>
 			<li>PsychicAbility_Enhanced</li>
+			<li>RCP_ElvenAccuracy</li>
 			<li>Skin_Melanin2</li>
 		</genes>
 	</XenotypeDef>
@@ -67,7 +67,6 @@
 			<li>Aggression_Aggressive</li>
 			<li>Beauty_VeryUgly</li>
 			<li>Body_Thin</li>
-			<li>RCP_RapidReproduction</li>
 			<li>Ears_Pointed</li>
 			<li>Hair_DarkBrown</li>
 			<li>Hair_DarkSaturatedReddish</li>
@@ -76,6 +75,7 @@
 			<li>Learning_Slow</li>
 			<li>MeleeDamage_Weak</li>
 			<li>Pain_Reduced</li>
+			<li>RCP_RapidReproduction</li>
 			<li>Skin_Green</li>
 			<li>Superclotting</li>
 			<li>WoundHealing_Fast</li>
@@ -97,7 +97,6 @@
 			<li>Aggression_Aggressive</li>
 			<li>Beauty_VeryUgly</li>
 			<li>Body_Hulk</li>
-			<li>RCP_RapidReproduction</li>
 			<li>Ears_Pointed</li>
 			<li>Hair_DarkBrown</li>
 			<li>Hair_DarkSaturatedReddish</li>
@@ -107,6 +106,7 @@
 			<li>Learning_Slow</li>
 			<li>MeleeDamage_Strong</li>
 			<li>Pain_Reduced</li>
+			<li>RCP_RapidReproduction</li>
 			<li>Robust</li>
 			<li>Skin_DeepRed</li>
 			<li>Superclotting</li>
@@ -128,7 +128,6 @@
 			<li MayRequire="jintuzilamian.gene.xenocosmetic">AFU_HA_ElfEar</li>
 			<li>Beard_NoBeardOnly</li>
 			<li>Body_Standard</li>
-			<li>RCP_ElvenAccuracy</li>
 			<li>Delicate</li>
 			<li>Ears_Pointed</li>
 			<li>Hair_DarkBlack</li>
@@ -136,6 +135,7 @@
 			<li>Hair_ReddishBrown</li>
 			<li>Hair_ShortOnly</li>
 			<li>Immunity_Strong</li>
+			<li>RCP_ElvenAccuracy</li>
 			<li>Skin_PaleYellow</li>
 			<li>StrongStomach</li>
 		</genes>
