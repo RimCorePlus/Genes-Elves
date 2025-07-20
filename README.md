@@ -8,13 +8,18 @@
 [badge-dlc-biotech]: https://img.shields.io/badge/DLC-Biotech-mediumturquoise
 <!--![Supports Anomaly][badge-dlc-anomaly] supports Anomaly DLC-->
 [badge-dlc-anomaly]: https://img.shields.io/badge/DLC-Anomaly-darkseagreen
+<!--![Supports Odyssey][badge-dlc-odyssey] supports Odyssey DLC-->
+[badge-dlc-odyssey]: https://img.shields.io/badge/DLC-Odyssey-mediumpurple
 
 # [RCP] Genes - Elves
 ![](About/Preview.png)\
 [![GPLv3][badge-license]](https://www.gnu.org/licenses/gpl-3.0) ![Supports Biotech][badge-dlc-biotech]
 
 > [!IMPORTANT]
-> Requires [Vanilla Expanded Framework](https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013).
+> Requires [RimWorld Biotech](https://store.steampowered.com/app/1826140/RimWorld__Biotech/).\
+> Requires [AFU Cosmetic Gene Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=2880942803).\
+> Integrated with [EyeGenes2](https://steamcommunity.com/sharedfiles/filedetails/?id=2898151329) (optional).\
+> Integrated with [SpawnThoseGenes!](https://steamcommunity.com/sharedfiles/filedetails/?id=2898044088) (optional).
 
 ## Additions
 - Elves, drow, wood elves, and an industrial faction for them

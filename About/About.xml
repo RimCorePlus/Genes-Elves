@@ -13,22 +13,10 @@
 			<displayName>Biotech</displayName>
 		</li>
 	</modDependencies>
-	<modDependenciesByVersion>
-		<v1.5>
-			<li>
-				<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
-				<displayName>Vanilla Expanded Framework</displayName>
-				<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
-				<downloadUrl>https://github.com/Vanilla-Expanded/VanillaExpandedFramework</downloadUrl>
-			</li>
-		</v1.5>
-	</modDependenciesByVersion>
 	<loadAfter>
 		<li>ceteam.combatextended</li>
 		<li>jintuzilamian.gene.xenocosmetic</li>
-		<li>ludeon.rimworld.biotech</li>
 		<li>nera.spawnthosegenes</li>
-		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
 		<li>RCP.Genes</li>
 	</loadAfter>
 </ModMetaData>

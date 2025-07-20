@@ -1,5 +1,0 @@
-<Patch>
-	<Operation Class="PatchOperationRemove">
-		<xpath>//XenotypeDef[defName="RCP_DarkElf" or defName="RCP_HighElf" or defName="RCP_WoodElf" or defName="RCP_Goblin" or defName="RCP_Hobgoblin"]/genes/li[text()="Ears_Pointed"]</xpath>
-	</Operation>
-</Patch>
