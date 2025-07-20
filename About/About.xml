@@ -3,7 +3,6 @@
 	<name>[RCP] Genes - Elves</name>
 	<author>boomer</author>
 	<supportedVersions>
-		<li>1.5</li>
 		<li>1.6</li>
 	</supportedVersions>
 	<url>https://github.com/RimCorePlus/Genes-Elves</url>
@@ -12,9 +11,13 @@
 			<packageId>Ludeon.RimWorld.Biotech</packageId>
 			<displayName>Biotech</displayName>
 		</li>
+		<li>
+			<packageId>jintuzilamian.gene.xenocosmetic</packageId>
+			<displayName>AFU Cosmetic Gene Expanded</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2880942803</steamWorkshopUrl>
+		</li>
 	</modDependencies>
 	<loadAfter>
-		<li>ceteam.combatextended</li>
 		<li>jintuzilamian.gene.xenocosmetic</li>
 		<li>nera.spawnthosegenes</li>
 		<li>RCP.Genes</li>
