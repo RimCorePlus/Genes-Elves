@@ -65,6 +65,10 @@
 		<genes>
 			<li MayRequire="jintuzilamian.gene.xenocosmetic">AFU_HA_GoblinEar</li>
 			<li>Aggression_Aggressive</li>
+			<li>AptitudeRemarkable_Shooting</li>
+			<li>AptitudeStrong_Cooking</li>
+			<li>AptitudeTerrible_Crafting</li>
+			<li>AptitudeTerrible_Intellectual</li>
 			<li>Beauty_VeryUgly</li>
 			<li>Body_Thin</li>
 			<li>Ears_Pointed</li>
@@ -95,6 +99,11 @@
 		<genes>
 			<li MayRequire="jintuzilamian.gene.xenocosmetic">AFU_HA_GoblinEar</li>
 			<li>Aggression_Aggressive</li>
+			<li>AptitudePoor_Animals</li>
+			<li>AptitudeRemarkable_Melee</li>
+			<li>AptitudeRemarkable_Shooting</li>
+			<li>AptitudeTerrible_Crafting</li>
+			<li>AptitudeTerrible_Intellectual</li>
 			<li>Beauty_VeryUgly</li>
 			<li>Body_Hulk</li>
 			<li>Ears_Pointed</li>
