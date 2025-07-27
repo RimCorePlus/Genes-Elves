@@ -11,11 +11,6 @@
 			<packageId>Ludeon.RimWorld.Biotech</packageId>
 			<displayName>Biotech</displayName>
 		</li>
-		<li>
-			<packageId>jintuzilamian.gene.xenocosmetic</packageId>
-			<displayName>AFU Cosmetic Gene Expanded</displayName>
-			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2880942803</steamWorkshopUrl>
-		</li>
 	</modDependencies>
 	<loadAfter>
 		<li>jintuzilamian.gene.xenocosmetic</li>
