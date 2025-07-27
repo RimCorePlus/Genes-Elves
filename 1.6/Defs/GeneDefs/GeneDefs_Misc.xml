@@ -6,12 +6,10 @@
         <description>Carriers of this gene have uncanny aim with attacks that rely on precision rather than brute force.</description>
         <displayCategory>Violence</displayCategory>
         <displayOrderInCategory>999</displayOrderInCategory>
-        <statOffsets>
-            <ShootingAccuracyPawn>0.5</ShootingAccuracyPawn>
-            <AimingAccuracy MayRequire="ceteam.combatextended">0.5</AimingAccuracy>
-        </statOffsets>
         <statFactors>
+            <AimingAccuracy MayRequire="ceteam.combatextended">1.25</AimingAccuracy>
             <MeleeDamageFactor>0.8</MeleeDamageFactor>
+            <ShootingAccuracyPawn>1.25</ShootingAccuracyPawn>
         </statFactors>
         <biostatMet>-1</biostatMet>
         <exclusionTags>
@@ -73,7 +71,6 @@
         <iconPath>UI/Icons/Genes/Gene_Fertile</iconPath>
         <displayOrderInCategory>999</displayOrderInCategory>
         <customEffectDescriptions>
-            <li>Pregnancy duration is halved.</li>
             <li>Significantly increases the chance of lovin'.</li>
         </customEffectDescriptions>
         <statFactors>
