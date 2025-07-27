@@ -17,7 +17,7 @@
 
 > [!IMPORTANT]
 > Requires [RimWorld Biotech](https://store.steampowered.com/app/1826140/RimWorld__Biotech/).\
-> Requires [AFU Cosmetic Gene Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=2880942803).\
+> Integrated with [AFU Cosmetic Gene Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=2880942803) (optional).\
 > Integrated with [EyeGenes2](https://steamcommunity.com/sharedfiles/filedetails/?id=2898151329) (optional).\
 > Integrated with [SpawnThoseGenes!](https://steamcommunity.com/sharedfiles/filedetails/?id=2898044088) (optional).
 
