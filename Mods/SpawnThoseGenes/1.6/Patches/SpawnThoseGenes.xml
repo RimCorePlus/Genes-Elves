@@ -1,8 +1,8 @@
 <Patch>
     <Operation Class="PatchOperationRemove">
-        <xpath>//XenotypeDef[starts-with(defName,"RCP_") and(contains(defName,"Elf") or contains(defName,"oblin"))]/genes/li[starts-with(.,"Eyes_")]</xpath>
+        <xpath>//XenotypeDef[starts-with(defName,"RCP_") and(contains(defName,"Elf") or contains(defName,"oblin"))]/genes/li[starts-with(.,"Eyes_") or starts-with(.,"Hair_") and not(contains(.,"Only"))]</xpath>
     </Operation>
     <Operation Class="PatchOperationRemove">
-        <xpath>//XenotypeDef[starts-with(defName,"RCP_") and(contains(defName,"Elf") or contains(defName,"oblin"))]/genes/li[starts-with(.,"Hair") and not(contains(.,"Only"))]</xpath>
+        <xpath>//XenotypeDef[defName="RCP_DarkElf"]/genes/li[starts-with(.,"Skin_")]</xpath>
     </Operation>
 </Patch>

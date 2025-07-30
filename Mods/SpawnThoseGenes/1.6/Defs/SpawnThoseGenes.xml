@@ -2,12 +2,12 @@
     <SpawnThoseGenes.SpawnThoseGenesXenotypes>
         <defName>RCP_DarkElf</defName>
         <Groups>
-            <li MayRequire="oppey.eyegenes2">
+            <li>
                 <Endogenes>
-                    <Eyes_DarkPurple>1</Eyes_DarkPurple>
-                    <Eyes_LightPurple>1</Eyes_LightPurple>
-                    <Eyes_Purple>2</Eyes_Purple>
-                    <Eyes_Red>0.01</Eyes_Red>
+                    <Eyes_DarkPurple MayRequire="oppey.eyegenes2">1</Eyes_DarkPurple>
+                    <Eyes_LightPurple MayRequire="oppey.eyegenes2">1</Eyes_LightPurple>
+                    <Eyes_Purple MayRequire="oppey.eyegenes2">2</Eyes_Purple>
+                    <Eyes_Red>0.1</Eyes_Red>
                 </Endogenes>
             </li>
             <li>
@@ -15,6 +15,12 @@
                     <Hair_DarkBlack>1</Hair_DarkBlack>
                     <Hair_InkBlack>1</Hair_InkBlack>
                     <Hair_SnowWhite>1</Hair_SnowWhite>
+                </Endogenes>
+            </li>
+            <li>
+                <Endogenes>
+                    <Skin_Blue>1</Skin_Blue>
+                    <Skin_SlateGray>1</Skin_SlateGray>
                 </Endogenes>
             </li>
         </Groups>

@@ -1,0 +1,45 @@
+<Patch>
+    <Operation Class="PatchOperationConditional">
+        <xpath>//GeneDef[defName="RCP_Black_Hair"]</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>//SpawnThoseGenes.SpawnThoseGenesXenotypes[defName="RCP_DarkElf"]/Groups/li[2]/Endogenes</xpath>
+                    <value>
+                        <RCP_Black_Hair>1</RCP_Black_Hair>
+                        <RCP_Slate_Hair>1</RCP_Slate_Hair>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>//SpawnThoseGenes.SpawnThoseGenesXenotypes[defName="RCP_HighElf"]/Groups/li[2]/Endogenes</xpath>
+                    <value>
+                        <RCP_Dark_Mauve_Hair>1</RCP_Dark_Mauve_Hair>
+                        <RCP_Indigo_Hair>1</RCP_Indigo_Hair>
+                        <RCP_Light_Indigo_Hair>1</RCP_Light_Indigo_Hair>
+                        <RCP_Muted_Purple_Hair>1</RCP_Muted_Purple_Hair>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>//SpawnThoseGenes.SpawnThoseGenesXenotypes[defName="RCP_Goblin" or defName="RCP_Hobgoblin"]/Groups/li[2]/Endogenes</xpath>
+                    <value>
+                        <RCP_Burnt_Umber_Hair>1</RCP_Burnt_Umber_Hair>
+                        <RCP_Dark_Brown_Hair>1</RCP_Dark_Brown_Hair>
+                        <RCP_Dirt_Brown_Hair>1</RCP_Dirt_Brown_Hair>
+                        <RCP_Faded_Brown_Hair>1</RCP_Faded_Brown_Hair>
+                        <RCP_Light_Brown_Hair>1</RCP_Light_Brown_Hair>
+                        <RCP_Subtle_Brown_Hair>1</RCP_Subtle_Brown_Hair>
+                        <RCP_Wood_Brown_Hair>1</RCP_Wood_Brown_Hair>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>//SpawnThoseGenes.SpawnThoseGenesXenotypes[defName="RCP_WoodElf"]/Groups/li[2]/Endogenes</xpath>
+                    <value>
+                        <RCP_Burnt_Umber_Hair>1</RCP_Burnt_Umber_Hair>
+                        <RCP_Dark_Brown_Hair>1</RCP_Dark_Brown_Hair>
+                        <RCP_Faded_Brown_Hair>1</RCP_Faded_Brown_Hair>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>
