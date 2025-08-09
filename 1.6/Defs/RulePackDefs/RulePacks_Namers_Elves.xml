@@ -35,11 +35,43 @@
             </rulesStrings>
         </rulePack>
     </RulePackDef>
-    <!--WIP <RulePackDef>
+    <RulePackDef>
         <defName>RCP_NamerSettlementElf</defName>
+        <include>
+            <li>RCP_NamerElf</li>
+        </include>
         <rulePack>
+            <rulesFiles>
+                <li>TerrainFeature->Words/Nouns/TerrainFeatures</li>
+            </rulesFiles>
             <rulesStrings>
+                <li>r_name->[lastName]</li>
+                <li>r_name->[firstName]'s [TerrainFeature]</li>
+                <li>r_name->[firstName]'s [MedievalFortification]</li>
+                <li>firstName->[SylElf][SylElf]</li>
+                <li>firstName->[SylElf]</li>
+                <li>lastName->[SylElf][EndElf]</li>
+                <li>MedievalFortification->bailey</li>
+                <li>MedievalFortification->barbican</li>
+                <li>MedievalFortification->bastion</li>
+                <li>MedievalFortification->battlement</li>
+                <li>MedievalFortification->castle</li>
+                <li>MedievalFortification->citadel</li>
+                <li>MedievalFortification->crenel</li>
+                <li>MedievalFortification->donjon</li>
+                <li>MedievalFortification->drawbridge</li>
+                <li>MedievalFortification->gate</li>
+                <li>MedievalFortification->harbor</li>
+                <li>MedievalFortification->hoarding</li>
+                <li>MedievalFortification->hold</li>
+                <li>MedievalFortification->keep</li>
+                <li>MedievalFortification->moat</li>
+                <li>MedievalFortification->motte</li>
+                <li>MedievalFortification->palisade</li>
+                <li>MedievalFortification->rampart</li>
+                <li>MedievalFortification->tower</li>
+                <li>MedievalFortification->wall</li>
             </rulesStrings>
         </rulePack>
-    </RulePackDef>-->
+    </RulePackDef>
 </Defs>

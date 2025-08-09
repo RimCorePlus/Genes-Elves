@@ -35,11 +35,43 @@
             </rulesStrings>
         </rulePack>
     </RulePackDef>
-    <!--WIP <RulePackDef>
+    <RulePackDef>
         <defName>RCP_NamerSettlementGoblin</defName>
+        <include>
+            <li>RCP_NamerGoblin</li>
+        </include>
         <rulePack>
+            <rulesFiles>
+                <li>TerrainFeature->Words/Nouns/TerrainFeatures</li>
+            </rulesFiles>
             <rulesStrings>
+                <li>r_name->[lastName]</li>
+                <li>r_name->[firstName]'s [TerrainFeature]</li>
+                <li>r_name->[firstName]'s [GoblinFortification]</li>
+                <li>firstName->[SylGoblin][SylGoblin]</li>
+                <li>firstName->[SylGoblin]</li>
+                <li>lastName->[SylGoblin][EndGoblin]</li>
+                <li>GoblinFortification->barricade</li>
+                <li>GoblinFortification->burrow</li>
+                <li>GoblinFortification->camp</li>
+                <li>GoblinFortification->den</li>
+                <li>GoblinFortification->fanghall</li>
+                <li>GoblinFortification->hideout</li>
+                <li>GoblinFortification->hovel</li>
+                <li>GoblinFortification->lair</li>
+                <li>GoblinFortification->mudhut</li>
+                <li>GoblinFortification->outpost</li>
+                <li>GoblinFortification->pit</li>
+                <li>GoblinFortification->rubble</li>
+                <li>GoblinFortification->scrapfort</li>
+                <li>GoblinFortification->shanty</li>
+                <li>GoblinFortification->slag</li>
+                <li>GoblinFortification->spikewall</li>
+                <li>GoblinFortification->stockade</li>
+                <li>GoblinFortification->stronghold</li>
+                <li>GoblinFortification->trashfort</li>
+                <li>GoblinFortification->warren</li>
             </rulesStrings>
         </rulePack>
-    </RulePackDef>-->
+    </RulePackDef>
 </Defs>
