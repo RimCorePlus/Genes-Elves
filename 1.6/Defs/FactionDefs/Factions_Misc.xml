@@ -167,13 +167,13 @@
 		</pawnGroupMakers>
 	</FactionDef>
 	<!--Goblin Horde-->
-	<FactionDef ParentName="TribeBase">
+	<FactionDef ParentName="FactionBase">
 		<defName>RCP_GoblinHorde</defName>
 		<label>goblin horde</label>
 		<pawnSingular>goblin</pawnSingular>
 		<pawnsPlural>goblins</pawnsPlural>
 		<leaderTitle>chieftain</leaderTitle>
-		<categoryTag>Outlander</categoryTag>
+		<categoryTag>Tribal</categoryTag>
 		<techLevel>Neolithic</techLevel>
 		<description>A large coalition of goblins who've agreed to fight outsiders instead of each other. They are mostly nomadic and enrich themselves by raiding and robbing their more productive neighbors.</description>
 		<factionIconPath>World/WorldObjects/Expanding/RCP_GoblinHorde</factionIconPath>
@@ -183,11 +183,15 @@
 		<configurationListOrderPriority>40</configurationListOrderPriority>
 		<settlementGenerationWeight>0.75</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<canStageAttacks>true</canStageAttacks>
 		<colorSpectrum>
 			<li>(0.66, 0.71, 0.42)</li>
 			<li>(0.46, 0.51, 0.22)</li>
 		</colorSpectrum>
 		<permanentEnemy>true</permanentEnemy>
+		<allowedCultures>
+			<li>Corunan</li>
+		</allowedCultures>
 		<requiredMemes Inherit="False">
 			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
@@ -202,18 +206,16 @@
 			<Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">2</Structure_TheistAbstract>
 			<Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">2</Structure_Ideological>
 		</structureMemeWeights>
-		<caravanTraderKinds Inherit="False">
-			<li>Caravan_Neolithic_WarMerchant</li>
-			<li>Caravan_Neolithic_Slaver</li>
-			<li>Caravan_Neolithic_ShamanMerchant</li>
-		</caravanTraderKinds>
-		<allowedCultures>
-			<li>Corunan</li>
-		</allowedCultures>
-		<xenotypeSet Inherit="False">
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>Tribal</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<xenotypeSet>
 			<xenotypeChances>
-				<RCP_Goblin>99</RCP_Goblin>
-				<RCP_Hobgoblin>1</RCP_Hobgoblin>
+				<RCP_Goblin>999</RCP_Goblin>
 			</xenotypeChances>
 		</xenotypeSet>
 		<minSettlementTemperatureChanceCurve>
@@ -225,5 +227,75 @@
 				<li>(24,1.0)</li>
 			</points>
 		</minSettlementTemperatureChanceCurve>
+		<raidCommonalityFromPointsCurve>
+			<points>
+				<li>(0, 1)</li>
+			</points>
+		</raidCommonalityFromPointsCurve>
+		<raidLootMaker>TribeRaidLootMaker</raidLootMaker>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(0,35)</li>
+				<li>(70, 50)</li>
+				<li>(800, 100)</li>
+				<li>(1300, 150)</li>
+				<li>(100000, 10000)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+		<pawnGroupMakers>
+			<li>
+				<!-- Normal fights, ranged with melee mix-ins -->
+				<kindDef>Combat</kindDef>
+				<commonality>100</commonality>
+				<options>
+					<Tribal_Penitent>5</Tribal_Penitent>
+					<Tribal_Warrior>5</Tribal_Warrior>
+					<Tribal_Archer>10</Tribal_Archer>
+					<Tribal_Hunter>10</Tribal_Hunter>
+					<Tribal_HeavyArcher>10</Tribal_HeavyArcher>
+					<Tribal_Berserker>5</Tribal_Berserker>
+					<RCP_HobgoblinArcher>3</RCP_HobgoblinArcher>
+					<RCP_HobgoblinBerserker>1.5</RCP_HobgoblinBerserker>
+				</options>
+			</li>
+			<li>
+				<!-- Normal fights, ranged only -->
+				<kindDef>Combat</kindDef>
+				<commonality>60</commonality>
+				<options>
+					<Tribal_Archer>10</Tribal_Archer>
+					<Tribal_Hunter>10</Tribal_Hunter>
+					<Tribal_HeavyArcher>10</Tribal_HeavyArcher>
+					<RCP_HobgoblinArcher>5</RCP_HobgoblinArcher>
+				</options>
+			</li>
+			<li>
+				<!-- Normal fights, melee only -->
+				<kindDef>Combat</kindDef>
+				<commonality>60</commonality>
+				<options>
+					<Tribal_Penitent>10</Tribal_Penitent>
+					<Tribal_Warrior>10</Tribal_Warrior>
+					<Tribal_Berserker>10</Tribal_Berserker>
+					<RCP_HobgoblinBerserker>5</RCP_HobgoblinBerserker>
+				</options>
+			</li>
+			<li>
+				<!-- breach-capable fights, breachers plus ranged with melee mix-ins -->
+				<kindDef>Combat</kindDef>
+				<commonality>5</commonality>
+				<options>
+					<Tribal_Breacher>5</Tribal_Breacher>
+					<Tribal_Penitent>5</Tribal_Penitent>
+					<Tribal_Warrior>5</Tribal_Warrior>
+					<Tribal_Archer>10</Tribal_Archer>
+					<Tribal_Hunter>10</Tribal_Hunter>
+					<Tribal_HeavyArcher>10</Tribal_HeavyArcher>
+					<Tribal_Berserker>5</Tribal_Berserker>
+					<RCP_HobgoblinArcher>3</RCP_HobgoblinArcher>
+					<RCP_HobgoblinBerserker>1.5</RCP_HobgoblinBerserker>
+				</options>
+			</li>
+		</pawnGroupMakers>
 	</FactionDef>
 </Defs>

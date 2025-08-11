@@ -64,7 +64,7 @@
             </suffixSymbols>
         </symbolPack>
     </GeneDef>
-    <GeneDef ParentName="FertilityBase">
+    <!-- <GeneDef ParentName="FertilityBase">
         <defName>RCP_RapidReproduction</defName>
         <label>rapid reproduction</label>
         <description>Carriers of this gene have a have a short lifespan but reproduce much faster than baseline humans.</description>
@@ -79,5 +79,5 @@
         </statFactors>
         <lovinMTBFactor>0.5</lovinMTBFactor>
         <biostatMet>3</biostatMet>
-    </GeneDef>
+    </GeneDef> -->
 </Defs>

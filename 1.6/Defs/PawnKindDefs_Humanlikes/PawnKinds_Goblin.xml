@@ -1,0 +1,31 @@
+<Defs>
+    <PawnKindDef ParentName="TribalChiefBase" Name="RCP_HobgoblinChiefBase" Abstract="True">
+        <defaultFactionDef>RCP_GoblinHorde</defaultFactionDef>
+        <useFactionXenotypes>false</useFactionXenotypes>
+        <xenotypeSet>
+            <xenotypeChances>
+                <RCP_Hobgoblin>999</RCP_Hobgoblin>
+            </xenotypeChances>
+        </xenotypeSet>
+    </PawnKindDef>
+    <PawnKindDef ParentName="RCP_HobgoblinChiefBase">
+        <defName>RCP_HobgoblinBerserker</defName>
+        <label>hobgoblin berserker</label>
+        <weaponTags>
+            <li>NeolithicMeleeAdvanced</li>
+            <li>MedievalMeleeAdvanced</li>
+        </weaponTags>
+        <initialResistanceRange>38~58</initialResistanceRange>
+    </PawnKindDef>
+    <PawnKindDef ParentName="RCP_HobgoblinChiefBase">
+        <defName>RCP_HobgoblinArcher</defName>
+        <label>archer chief</label>
+        <weaponTags>
+            <li>NeolithicRangedChief</li>
+        </weaponTags>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
+        <initialResistanceRange>16~26</initialResistanceRange>
+    </PawnKindDef>
+</Defs>

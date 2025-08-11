@@ -79,9 +79,7 @@
 			<li>Learning_Slow</li>
 			<li>MeleeDamage_Weak</li>
 			<li>Pain_Reduced</li>
-			<li>RCP_RapidReproduction</li>
 			<li>Skin_Green</li>
-			<li>Superclotting</li>
 			<li>WoundHealing_Fast</li>
 		</genes>
 	</XenotypeDef>
@@ -115,7 +113,6 @@
 			<li>Learning_Slow</li>
 			<li>MeleeDamage_Strong</li>
 			<li>Pain_Reduced</li>
-			<li>RCP_RapidReproduction</li>
 			<li>Robust</li>
 			<li>Skin_DeepRed</li>
 			<li>Superclotting</li>
