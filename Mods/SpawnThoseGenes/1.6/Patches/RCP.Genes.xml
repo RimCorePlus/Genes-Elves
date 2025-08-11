@@ -1,42 +1,42 @@
 <Patch>
     <Operation Class="PatchOperationConditional">
-        <xpath>//GeneDef[defName="RCP_Black_Hair"]</xpath>
+        <xpath>//GeneDef[defName="RCP_HairBlack"]</xpath>
         <match Class="PatchOperationSequence">
             <operations>
                 <li Class="PatchOperationAdd">
                     <xpath>//SpawnThoseGenes.SpawnThoseGenesXenotypes[defName="RCP_DarkElf"]/Groups/li[2]/Endogenes</xpath>
                     <value>
-                        <RCP_Black_Hair>1</RCP_Black_Hair>
-                        <RCP_Slate_Hair>1</RCP_Slate_Hair>
+                        <RCP_HairBlack>1</RCP_HairBlack>
+                        <RCP_HairSlate>1</RCP_HairSlate>
                     </value>
                 </li>
                 <li Class="PatchOperationAdd">
                     <xpath>//SpawnThoseGenes.SpawnThoseGenesXenotypes[defName="RCP_HighElf"]/Groups/li[2]/Endogenes</xpath>
                     <value>
-                        <RCP_Dark_Mauve_Hair>1</RCP_Dark_Mauve_Hair>
-                        <RCP_Indigo_Hair>1</RCP_Indigo_Hair>
-                        <RCP_Light_Indigo_Hair>1</RCP_Light_Indigo_Hair>
-                        <RCP_Muted_Purple_Hair>1</RCP_Muted_Purple_Hair>
+                        <RCP_HairMauveDark>1</RCP_HairMauveDark>
+                        <RCP_HairIndigo>1</RCP_HairIndigo>
+                        <RCP_HairIndigoLight>1</RCP_HairIndigoLight>
+                        <RCP_HairPurpleMuted>1</RCP_HairPurpleMuted>
                     </value>
                 </li>
                 <li Class="PatchOperationAdd">
                     <xpath>//SpawnThoseGenes.SpawnThoseGenesXenotypes[defName="RCP_Goblin" or defName="RCP_Hobgoblin"]/Groups/li[2]/Endogenes</xpath>
                     <value>
-                        <RCP_Burnt_Umber_Hair>1</RCP_Burnt_Umber_Hair>
-                        <RCP_Dark_Brown_Hair>1</RCP_Dark_Brown_Hair>
-                        <RCP_Dirt_Brown_Hair>1</RCP_Dirt_Brown_Hair>
-                        <RCP_Faded_Brown_Hair>1</RCP_Faded_Brown_Hair>
-                        <RCP_Light_Brown_Hair>1</RCP_Light_Brown_Hair>
-                        <RCP_Subtle_Brown_Hair>1</RCP_Subtle_Brown_Hair>
-                        <RCP_Wood_Brown_Hair>1</RCP_Wood_Brown_Hair>
+                        <RCP_HairUmberBurnt>1</RCP_HairUmberBurnt>
+                        <RCP_HairBrownDark>1</RCP_HairBrownDark>
+                        <RCP_HairBrownDirt>1</RCP_HairBrownDirt>
+                        <RCP_HairBrownFaded>1</RCP_HairBrownFaded>
+                        <RCP_HairBrownLight>1</RCP_HairBrownLight>
+                        <RCP_HairBrownSubtle>1</RCP_HairBrownSubtle>
+                        <RCP_HairBrownWood>1</RCP_HairBrownWood>
                     </value>
                 </li>
                 <li Class="PatchOperationAdd">
                     <xpath>//SpawnThoseGenes.SpawnThoseGenesXenotypes[defName="RCP_WoodElf"]/Groups/li[2]/Endogenes</xpath>
                     <value>
-                        <RCP_Burnt_Umber_Hair>1</RCP_Burnt_Umber_Hair>
-                        <RCP_Dark_Brown_Hair>1</RCP_Dark_Brown_Hair>
-                        <RCP_Faded_Brown_Hair>1</RCP_Faded_Brown_Hair>
+                        <RCP_HairUmberBurnt>1</RCP_HairUmberBurnt>
+                        <RCP_HairBrownDark>1</RCP_HairBrownDark>
+                        <RCP_HairBrownFaded>1</RCP_HairBrownFaded>
                     </value>
                 </li>
             </operations>
