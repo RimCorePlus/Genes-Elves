@@ -297,5 +297,6 @@
 				</options>
 			</li>
 		</pawnGroupMakers>
+		<settlementTexturePath>World/WorldObjects/TribalSettlement</settlementTexturePath>
 	</FactionDef>
 </Defs>
